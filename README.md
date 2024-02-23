@@ -1,7 +1,7 @@
 <div align="center">
   
 # Modern_Gent_Trendsetter
-<img width="177" alt="image" src="https://github.com/kkms-14/Modern_Gent_Trendsetter/assets/74400595/c25e80fb-86d2-4c95-b013-3de6ee55c602">
+<img width="300" alt="image" src="https://github.com/kkms-14/Modern_Gent_Trendsetter/assets/74400595/c25e80fb-86d2-4c95-b013-3de6ee55c602">
 </div>
 
 ## Group member:
