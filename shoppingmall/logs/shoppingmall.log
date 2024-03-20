@@ -1,0 +1,156 @@
+INFO 2024-03-20 18:18:51,705 basehttp 124 "GET / HTTP/1.1" 200 1716
+WARNING 2024-03-20 18:18:51,814 base 152 Not Found: /favicon.ico
+WARNING 2024-03-20 18:18:51,814 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 1968
+INFO 2024-03-20 18:23:11,702 basehttp 124 "GET / HTTP/1.1" 200 1716
+INFO 2024-03-20 18:23:12,310 basehttp 124 "GET / HTTP/1.1" 200 1716
+INFO 2024-03-20 18:23:18,817 basehttp 124 "GET / HTTP/1.1" 200 1716
+WARNING 2024-03-20 18:23:34,505 basehttp 124 "GET /static/logo.png HTTP/1.1" 404 1637
+INFO 2024-03-20 18:24:04,832 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7696
+WARNING 2024-03-20 18:59:32,226 base 152 Not Found: /
+WARNING 2024-03-20 18:59:32,235 basehttp 124 "GET / HTTP/1.1" 404 2093
+WARNING 2024-03-20 18:59:32,631 base 152 Not Found: /favicon.ico
+WARNING 2024-03-20 18:59:32,631 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2144
+INFO 2024-03-20 18:59:32,907 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7696
+WARNING 2024-03-20 18:59:37,866 base 152 Not Found: /
+WARNING 2024-03-20 18:59:37,867 basehttp 124 "GET / HTTP/1.1" 404 2093
+INFO 2024-03-20 18:59:43,595 basehttp 124 "GET /register HTTP/1.1" 301 0
+ERROR 2024-03-20 18:59:43,603 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/template/utils.py", line 65, in __getitem__
+    return self._engines[alias]
+KeyError: 'jinja2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/shoppingmall/shoppingmall/apps/users/views.py", line 11, in get
+    return render(request, 'register.html')
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/template/loader.py", line 18, in get_template
+    engines = _engine_list(using)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/template/loader.py", line 72, in _engine_list
+    return engines.all() if using is None else [engines[using]]
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/template/utils.py", line 89, in all
+    return [self[alias] for alias in self]
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/template/utils.py", line 89, in <listcomp>
+    return [self[alias] for alias in self]
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/template/utils.py", line 80, in __getitem__
+    engine = engine_cls(params)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/template/backends/jinja2.py", line 29, in __init__
+    environment_cls = import_string(environment)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/utils/module_loading.py", line 20, in import_string
+    module = import_module(module_path)
+  File "/usr/local/bin/python3.6/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'shoppingmall.shoppingmall'
+ERROR 2024-03-20 18:59:43,642 basehttp 124 "GET /register/ HTTP/1.1" 500 128075
+INFO 2024-03-20 19:00:24,757 basehttp 124 "GET /register/ HTTP/1.1" 200 4603
+WARNING 2024-03-20 19:00:24,783 base 152 Not Found: /woniu_mall/staticmall/static/css/reset.css
+WARNING 2024-03-20 19:00:24,784 basehttp 124 "GET /woniu_mall/staticmall/static/css/reset.css HTTP/1.1" 404 2237
+INFO 2024-03-20 19:00:24,786 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2024-03-20 19:00:24,790 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2024-03-20 19:00:24,793 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2024-03-20 19:00:24,796 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2024-03-20 19:00:24,800 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 9786
+INFO 2024-03-20 19:00:24,799 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7696
+WARNING 2024-03-20 19:00:24,843 base 152 Not Found: /image_codes/31d72bc0-3dfc-48e1-9342-cab19e2041fa/
+WARNING 2024-03-20 19:00:24,843 basehttp 124 "GET /image_codes/31d72bc0-3dfc-48e1-9342-cab19e2041fa/ HTTP/1.1" 404 2258
+INFO 2024-03-20 19:00:24,847 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2024-03-20 19:00:24,850 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2024-03-20 19:00:24,851 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2024-03-20 19:02:33,311 basehttp 124 "GET /register/ HTTP/1.1" 200 4628
+WARNING 2024-03-20 19:02:33,335 base 152 Not Found: /woniu_mall/staticmall/static/css/reset.css
+WARNING 2024-03-20 19:02:33,335 basehttp 124 "GET /woniu_mall/staticmall/static/css/reset.css HTTP/1.1" 404 2237
+WARNING 2024-03-20 19:02:33,382 base 152 Not Found: /image_codes/32770f38-9463-46fc-864a-76d19a2dd643/
+WARNING 2024-03-20 19:02:33,382 basehttp 124 "GET /image_codes/32770f38-9463-46fc-864a-76d19a2dd643/ HTTP/1.1" 404 2258
+WARNING 2024-03-20 19:03:53,960 base 152 Not Found: /login/
+WARNING 2024-03-20 19:03:53,960 basehttp 124 "GET /login/ HTTP/1.1" 404 2129
+INFO 2024-03-20 19:08:39,151 basehttp 124 "GET /register/ HTTP/1.1" 200 4630
+WARNING 2024-03-20 19:08:39,184 base 152 Not Found: /shoppingmall/staticmall/static/css/reset.css
+WARNING 2024-03-20 19:08:39,186 basehttp 124 "GET /shoppingmall/staticmall/static/css/reset.css HTTP/1.1" 404 2243
+INFO 2024-03-20 19:08:39,187 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2024-03-20 19:08:39,191 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2024-03-20 19:08:39,193 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2024-03-20 19:08:39,194 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2024-03-20 19:08:39,195 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2024-03-20 19:08:39,232 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2024-03-20 19:08:39,261 base 152 Not Found: /image_codes/ce07a961-c6e9-4958-a97a-8d7955e6f50b/
+WARNING 2024-03-20 19:08:39,261 basehttp 124 "GET /image_codes/ce07a961-c6e9-4958-a97a-8d7955e6f50b/ HTTP/1.1" 404 2258
+INFO 2024-03-20 19:08:39,263 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 304 0
+INFO 2024-03-20 19:08:39,267 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 304 0
+INFO 2024-03-20 19:08:39,269 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 304 0
+INFO 2024-03-20 19:09:51,385 basehttp 124 "GET /register/ HTTP/1.1" 200 4606
+INFO 2024-03-20 19:09:51,401 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+WARNING 2024-03-20 19:09:51,450 base 152 Not Found: /image_codes/902a9707-6b2f-4703-85ac-3596bf039909/
+WARNING 2024-03-20 19:09:51,451 basehttp 124 "GET /image_codes/902a9707-6b2f-4703-85ac-3596bf039909/ HTTP/1.1" 404 2258
+INFO 2024-03-20 19:09:52,545 basehttp 124 "GET /register/ HTTP/1.1" 200 4606
+WARNING 2024-03-20 19:09:52,606 base 152 Not Found: /image_codes/c169bb3a-afce-4941-9b85-921a40bf77bc/
+WARNING 2024-03-20 19:09:52,606 basehttp 124 "GET /image_codes/c169bb3a-afce-4941-9b85-921a40bf77bc/ HTTP/1.1" 404 2258
+INFO 2024-03-20 19:11:50,485 basehttp 124 "GET /register/ HTTP/1.1" 200 4606
+WARNING 2024-03-20 19:11:50,539 base 152 Not Found: /image_codes/41f6e2e0-2317-46c1-a5dc-c0708df22c5e/
+WARNING 2024-03-20 19:11:50,539 basehttp 124 "GET /image_codes/41f6e2e0-2317-46c1-a5dc-c0708df22c5e/ HTTP/1.1" 404 2258
+INFO 2024-03-20 19:12:50,747 basehttp 124 "GET /register/ HTTP/1.1" 200 4622
+WARNING 2024-03-20 19:12:50,808 base 152 Not Found: /image_codes/cfbbc1e6-7c5c-4b48-81cb-79e6775e7091/
+WARNING 2024-03-20 19:12:50,808 basehttp 124 "GET /image_codes/cfbbc1e6-7c5c-4b48-81cb-79e6775e7091/ HTTP/1.1" 404 2258
+INFO 2024-03-20 19:13:16,299 basehttp 124 "GET /register/ HTTP/1.1" 200 4620
+WARNING 2024-03-20 19:13:16,355 base 152 Not Found: /image_codes/2d784f93-df0b-4bec-8727-15ba39ce6850/
+WARNING 2024-03-20 19:13:16,355 basehttp 124 "GET /image_codes/2d784f93-df0b-4bec-8727-15ba39ce6850/ HTTP/1.1" 404 2258
+INFO 2024-03-20 19:14:13,884 basehttp 124 "GET /register/ HTTP/1.1" 200 4634
+WARNING 2024-03-20 19:14:13,949 base 152 Not Found: /image_codes/06c9585e-c187-4052-a628-c624a228a76a/
+WARNING 2024-03-20 19:14:13,950 basehttp 124 "GET /image_codes/06c9585e-c187-4052-a628-c624a228a76a/ HTTP/1.1" 404 2258
+INFO 2024-03-20 19:15:08,487 basehttp 124 "GET /register/ HTTP/1.1" 200 4631
+INFO 2024-03-20 19:15:08,503 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2024-03-20 19:15:08,503 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2024-03-20 19:15:08,504 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2024-03-20 19:15:08,505 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2024-03-20 19:15:08,505 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2024-03-20 19:15:08,530 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2024-03-20 19:15:08,553 base 152 Not Found: /image_codes/0ea903b9-a4c4-4b03-b8b4-b56351c06280/
+WARNING 2024-03-20 19:15:08,555 basehttp 124 "GET /image_codes/0ea903b9-a4c4-4b03-b8b4-b56351c06280/ HTTP/1.1" 404 2258
+INFO 2024-03-20 19:15:08,556 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 304 0
+INFO 2024-03-20 19:15:08,557 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 304 0
+INFO 2024-03-20 19:15:08,562 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 304 0
+INFO 2024-03-20 19:15:09,589 basehttp 124 "GET /register/ HTTP/1.1" 200 4631
+WARNING 2024-03-20 19:15:09,648 base 152 Not Found: /image_codes/c250a71f-ca69-4bfc-851c-09e411a2df58/
+WARNING 2024-03-20 19:15:09,649 basehttp 124 "GET /image_codes/c250a71f-ca69-4bfc-851c-09e411a2df58/ HTTP/1.1" 404 2258
+INFO 2024-03-20 19:17:49,765 basehttp 124 "GET /register/ HTTP/1.1" 200 4618
+INFO 2024-03-20 19:17:49,788 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+WARNING 2024-03-20 19:17:49,830 base 152 Not Found: /image_codes/dc8bdfce-83e3-4a2c-9d8b-52620652bcc6/
+WARNING 2024-03-20 19:17:49,830 basehttp 124 "GET /image_codes/dc8bdfce-83e3-4a2c-9d8b-52620652bcc6/ HTTP/1.1" 404 2258
+WARNING 2024-03-20 19:17:52,145 base 152 Not Found: /register/l
+WARNING 2024-03-20 19:17:52,145 basehttp 124 "GET /register/l HTTP/1.1" 404 2141
+WARNING 2024-03-20 19:18:00,662 base 152 Not Found: /register/l
+WARNING 2024-03-20 19:18:00,662 basehttp 124 "GET /register/l HTTP/1.1" 404 2141
+INFO 2024-03-20 19:18:32,094 basehttp 124 "GET /register/ HTTP/1.1" 200 4609
+WARNING 2024-03-20 19:18:32,165 base 152 Not Found: /image_codes/d53ddcf0-9864-4e42-a3a7-8c725355fc8f/
+WARNING 2024-03-20 19:18:32,166 basehttp 124 "GET /image_codes/d53ddcf0-9864-4e42-a3a7-8c725355fc8f/ HTTP/1.1" 404 2258
+INFO 2024-03-20 19:20:44,288 basehttp 124 "GET /register/ HTTP/1.1" 200 4609
+WARNING 2024-03-20 19:20:44,343 base 152 Not Found: /image_codes/1b3e2a59-9be5-4de3-bc6f-cc2e7ff81572/
+WARNING 2024-03-20 19:20:44,343 basehttp 124 "GET /image_codes/1b3e2a59-9be5-4de3-bc6f-cc2e7ff81572/ HTTP/1.1" 404 2258
+INFO 2024-03-20 19:21:03,853 basehttp 124 "GET /register/ HTTP/1.1" 200 4596
+WARNING 2024-03-20 19:21:03,910 base 152 Not Found: /image_codes/f5cf88e5-a19b-4921-8c41-980a2b49ebdf/
+WARNING 2024-03-20 19:21:03,910 basehttp 124 "GET /image_codes/f5cf88e5-a19b-4921-8c41-980a2b49ebdf/ HTTP/1.1" 404 2258
