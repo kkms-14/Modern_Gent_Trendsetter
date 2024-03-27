@@ -186,3 +186,7 @@ LOGGING = {
         },
     },
 }
+
+# 用户认证
+AUTH_USER_MODEL = 'users.User'
+
