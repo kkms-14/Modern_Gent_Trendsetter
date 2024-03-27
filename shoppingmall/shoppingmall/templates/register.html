@@ -28,22 +28,22 @@
                 <ul>
                     <li>
                         <label>用户名:</label>
-                        <input type="text" name="user_name" id="user_name" v-model="username" @blur="check_username">
+                        <input type="text" name="username" id="user_name" v-model="username" @blur="check_username">
                         <span class="error_tip" v-show="error_name">[[ error_name_message ]]</span>
                     </li>
                     <li>
                         <label>密码:</label>
-                        <input type="password" name="pwd" id="pwd" v-model="password" @blur="check_pwd">
+                        <input type="password" name="password" id="pwd" v-model="password" @blur="check_pwd">
                         <span class="error_tip" v-show="error_password">[[ error_password_message ]]</span>
                     </li>
                     <li>
                         <label>确认密码:</label>
-                        <input type="password" name="cpwd" id="cpwd" v-model="password2" @blur="check_cpwd">
+                        <input type="password" name="password2" id="cpwd" v-model="password2" @blur="check_cpwd">
                         <span class="error_tip" v-show="error_check_password">[[ error_password2_message ]]</span>
                     </li>
                     <li>
                         <label>手机号:</label>
-                        <input type="text" name="phone" id="phone" v-model="mobile" @blur="check_phone">
+                        <input type="text" name="mobile" id="phone" v-model="mobile" @blur="check_phone">
                         <span class="error_tip" v-show="error_phone">[[ error_phone_message ]]</span>
                     </li>
                     <li>
@@ -55,7 +55,7 @@
                     </li>
                     <li>
                         <label>短信验证码:</label>
-                        <input type="text" name="msg_code" id="msg_code" class="msg_input" v-model="sms_code"
+                        <input type="text" name="sms_code" id="msg_code" class="msg_input" v-model="sms_code"
                                @blur="check_sms_code">
                         <a href="javascript:;" class="get_msg_code" @click="send_sms_code">[[sms_code_tip]]</a>
                         <span class="error_tip" v-show="error_sms_code">[[ error_sms_code_message ]]</span>
@@ -67,6 +67,9 @@
                     </li>
                     <li class="reg_sub">
                         <input type="submit" value="注 册">
+                        {% if register_errmsg %}
+                            <span class="error_tip2">{{ register_errmsg }}</span>
+                        {% endif %}
                     </li>
                 </ul>
             </form>

@@ -154,3 +154,583 @@ WARNING 2024-03-20 19:20:44,343 basehttp 124 "GET /image_codes/1b3e2a59-9be5-4de
 INFO 2024-03-20 19:21:03,853 basehttp 124 "GET /register/ HTTP/1.1" 200 4596
 WARNING 2024-03-20 19:21:03,910 base 152 Not Found: /image_codes/f5cf88e5-a19b-4921-8c41-980a2b49ebdf/
 WARNING 2024-03-20 19:21:03,910 basehttp 124 "GET /image_codes/f5cf88e5-a19b-4921-8c41-980a2b49ebdf/ HTTP/1.1" 404 2258
+INFO 2024-03-20 19:26:32,281 basehttp 124 "GET /register/ HTTP/1.1" 200 4596
+INFO 2024-03-20 19:26:32,302 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2024-03-20 19:26:32,303 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2024-03-20 19:26:32,304 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2024-03-20 19:26:32,305 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2024-03-20 19:26:32,310 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2024-03-20 19:26:32,311 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2024-03-20 19:26:32,330 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+WARNING 2024-03-20 19:26:32,351 base 152 Not Found: /image_codes/af0432bb-a4ae-4b89-9999-930bd55f2f30/
+WARNING 2024-03-20 19:26:32,351 basehttp 124 "GET /image_codes/af0432bb-a4ae-4b89-9999-930bd55f2f30/ HTTP/1.1" 404 2258
+INFO 2024-03-20 19:26:32,355 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 304 0
+INFO 2024-03-20 19:26:32,358 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 304 0
+INFO 2024-03-20 19:26:32,362 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 304 0
+WARNING 2024-03-20 19:26:42,268 base 152 Not Found: /usernames/wdaWDq/count/
+WARNING 2024-03-20 19:26:42,269 basehttp 124 "GET /usernames/wdaWDq/count/ HTTP/1.1" 404 2180
+WARNING 2024-03-20 19:27:15,590 base 152 Not Found: /mobiles/13699109260/count/
+WARNING 2024-03-20 19:27:15,590 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 404 2189
+INFO 2024-03-27 16:13:15,782 basehttp 124 "GET /register/ HTTP/1.1" 200 4596
+INFO 2024-03-27 16:13:16,006 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2024-03-27 16:13:16,008 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2024-03-27 16:13:16,009 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2024-03-27 16:13:16,010 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2024-03-27 16:13:16,012 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2024-03-27 16:13:16,016 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2024-03-27 16:13:16,020 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7696
+WARNING 2024-03-27 16:13:16,175 base 152 Not Found: /image_codes/425eabe6-2950-4e4c-bd59-d2f82e3706e5/
+WARNING 2024-03-27 16:13:16,175 basehttp 124 "GET /image_codes/425eabe6-2950-4e4c-bd59-d2f82e3706e5/ HTTP/1.1" 404 2258
+INFO 2024-03-27 16:13:16,226 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2024-03-27 16:13:16,228 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2024-03-27 16:13:16,229 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2024-03-27 16:13:16,310 base 152 Not Found: /favicon.ico
+WARNING 2024-03-27 16:13:16,310 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2144
+INFO 2024-03-27 16:14:22,517 basehttp 124 "GET /register/ HTTP/1.1" 200 4584
+WARNING 2024-03-27 16:14:22,666 base 152 Not Found: /image_codes/58b7ac84-70fb-4676-aae8-434ec0c31f87/
+WARNING 2024-03-27 16:14:22,667 basehttp 124 "GET /image_codes/58b7ac84-70fb-4676-aae8-434ec0c31f87/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 16:14:22,762 base 152 Not Found: /favicon.ico
+WARNING 2024-03-27 16:14:22,763 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2144
+INFO 2024-03-27 16:15:07,015 basehttp 124 "GET /register/ HTTP/1.1" 200 4595
+WARNING 2024-03-27 16:15:07,160 base 152 Not Found: /image_codes/a34ae749-1237-4ce3-9eee-5d75d109b3a2/
+WARNING 2024-03-27 16:15:07,161 basehttp 124 "GET /image_codes/a34ae749-1237-4ce3-9eee-5d75d109b3a2/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 16:15:07,175 base 152 Not Found: /favicon.ico
+WARNING 2024-03-27 16:15:07,175 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2144
+INFO 2024-03-27 16:16:22,718 basehttp 124 "GET /register/ HTTP/1.1" 200 4575
+WARNING 2024-03-27 16:16:22,909 base 152 Not Found: /image_codes/452ce4ff-467a-47a4-9b90-fb9d11aa118e/
+WARNING 2024-03-27 16:16:22,910 basehttp 124 "GET /image_codes/452ce4ff-467a-47a4-9b90-fb9d11aa118e/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 16:16:22,937 base 152 Not Found: /favicon.ico
+WARNING 2024-03-27 16:16:22,938 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2144
+INFO 2024-03-27 16:17:20,818 basehttp 124 "GET /register/ HTTP/1.1" 200 4455
+WARNING 2024-03-27 16:17:21,085 base 152 Not Found: /image_codes/c32865b2-1014-447f-910b-6a2d5af739a4/
+WARNING 2024-03-27 16:17:21,085 basehttp 124 "GET /image_codes/c32865b2-1014-447f-910b-6a2d5af739a4/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 16:17:21,115 base 152 Not Found: /favicon.ico
+WARNING 2024-03-27 16:17:21,116 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2144
+WARNING 2024-03-27 17:16:15,054 base 152 Not Found: /
+WARNING 2024-03-27 17:16:15,055 basehttp 124 "GET / HTTP/1.1" 404 2093
+WARNING 2024-03-27 17:21:15,693 base 152 Not Found: /
+WARNING 2024-03-27 17:21:15,696 basehttp 124 "GET / HTTP/1.1" 404 2093
+INFO 2024-03-27 17:21:29,344 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7696
+WARNING 2024-03-27 17:21:29,389 base 152 Not Found: /image_codes/fc936cb8-ee06-493f-99be-d4a3730a77a2/
+WARNING 2024-03-27 17:21:29,390 basehttp 124 "GET /image_codes/fc936cb8-ee06-493f-99be-d4a3730a77a2/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 17:21:54,079 base 152 Not Found: /
+WARNING 2024-03-27 17:21:54,082 basehttp 124 "GET / HTTP/1.1" 404 2093
+WARNING 2024-03-27 17:26:40,990 base 152 Not Found: /
+WARNING 2024-03-27 17:26:40,991 basehttp 124 "GET / HTTP/1.1" 404 2093
+WARNING 2024-03-27 17:30:48,978 base 152 Not Found: /
+WARNING 2024-03-27 17:30:48,981 basehttp 124 "GET / HTTP/1.1" 404 2093
+INFO 2024-03-27 17:31:02,349 basehttp 124 "GET /register/ HTTP/1.1" 200 4480
+INFO 2024-03-27 17:31:02,409 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7696
+WARNING 2024-03-27 17:31:02,459 base 152 Not Found: /image_codes/6ca5748b-de3a-4102-b965-b14c2a6dae48/
+WARNING 2024-03-27 17:31:02,459 basehttp 124 "GET /image_codes/6ca5748b-de3a-4102-b965-b14c2a6dae48/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 17:31:30,220 base 152 Not Found: /usernames/wangyutao/count/
+WARNING 2024-03-27 17:31:30,229 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 17:31:57,771 base 152 Not Found: /mobiles/13612345678/count/
+WARNING 2024-03-27 17:31:57,774 basehttp 124 "GET /mobiles/13612345678/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 17:32:12,509 csrf 160 Forbidden (CSRF cookie not set.): /register/
+WARNING 2024-03-27 17:32:12,520 basehttp 124 "POST /register/ HTTP/1.1" 403 2857
+WARNING 2024-03-27 17:33:59,329 base 152 Not Found: /
+WARNING 2024-03-27 17:33:59,331 basehttp 124 "GET / HTTP/1.1" 404 2093
+WARNING 2024-03-27 17:34:07,439 base 152 Not Found: /
+WARNING 2024-03-27 17:34:07,441 basehttp 124 "GET / HTTP/1.1" 404 2093
+WARNING 2024-03-27 17:34:19,342 base 152 Not Found: /usernames/wangyutao/count/
+WARNING 2024-03-27 17:34:19,343 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 17:34:32,993 base 152 Not Found: /mobiles/13612345678/count/
+WARNING 2024-03-27 17:34:32,994 basehttp 124 "GET /mobiles/13612345678/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 17:34:37,562 basehttp 124 "POST /register/ HTTP/1.1" 403 18
+WARNING 2024-03-27 17:38:24,027 base 152 Not Found: /
+WARNING 2024-03-27 17:38:24,028 basehttp 124 "GET / HTTP/1.1" 404 2093
+WARNING 2024-03-27 17:38:37,053 basehttp 124 "POST /register/ HTTP/1.1" 403 18
+WARNING 2024-03-27 17:39:06,173 base 152 Not Found: /
+WARNING 2024-03-27 17:39:06,175 basehttp 124 "GET / HTTP/1.1" 404 2093
+INFO 2024-03-27 17:39:23,854 basehttp 124 "GET /register/ HTTP/1.1" 200 4490
+INFO 2024-03-27 17:39:23,928 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7696
+INFO 2024-03-27 17:39:23,929 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+WARNING 2024-03-27 17:39:24,039 base 152 Not Found: /image_codes/ae85178d-06d2-4de8-b0b7-7bef8e37ca44/
+WARNING 2024-03-27 17:39:24,041 basehttp 124 "GET /image_codes/ae85178d-06d2-4de8-b0b7-7bef8e37ca44/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 17:40:06,906 base 152 Not Found: /usernames/wangyutao/count/
+WARNING 2024-03-27 17:40:06,908 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 17:40:23,848 base 152 Not Found: /mobiles/13612345678/count/
+WARNING 2024-03-27 17:40:23,851 basehttp 124 "GET /mobiles/13612345678/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 17:43:33,254 base 152 Not Found: /usernames/wangyutao/count/
+WARNING 2024-03-27 17:43:33,255 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 17:43:33,262 base 152 Not Found: /mobiles/13612345678/count/
+WARNING 2024-03-27 17:43:33,262 basehttp 124 "GET /mobiles/13612345678/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 17:43:34,599 base 152 Not Found: /mobiles/13612345678/count/
+WARNING 2024-03-27 17:43:34,608 base 152 Not Found: /usernames/wangyutao/count/
+WARNING 2024-03-27 17:43:34,612 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 17:43:34,614 basehttp 124 "GET /mobiles/13612345678/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 17:43:38,106 base 152 Not Found: /usernames/wangyutao/count/
+WARNING 2024-03-27 17:43:38,112 base 152 Not Found: /mobiles/13612345678/count/
+WARNING 2024-03-27 17:43:38,114 basehttp 124 "GET /mobiles/13612345678/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 17:43:38,115 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 404 2189
+INFO 2024-03-27 17:43:44,868 basehttp 124 "GET /register/ HTTP/1.1" 200 4490
+WARNING 2024-03-27 17:43:44,934 base 152 Not Found: /image_codes/d5fa4867-9434-4162-a855-0d2234a114af/
+WARNING 2024-03-27 17:43:44,935 basehttp 124 "GET /image_codes/d5fa4867-9434-4162-a855-0d2234a114af/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 17:43:52,370 base 152 Not Found: /usernames/wangyutao/count/
+WARNING 2024-03-27 17:43:52,372 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 17:44:05,433 base 152 Not Found: /mobiles/13612345678/count/
+WARNING 2024-03-27 17:44:05,434 basehttp 124 "GET /mobiles/13612345678/count/ HTTP/1.1" 404 2189
+ERROR 2024-03-27 17:44:14,829 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django_redis/cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django_redis/cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django_redis/client/default.py", line 474, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/shoppingmall/shoppingmall/apps/users/views.py", line 51, in post
+    login(request, user)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 140, in login
+    request.session.cycle_key()
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py", line 311, in cycle_key
+    self.create()
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/contrib/sessions/backends/cache.py", line 44, in create
+    self._session_key = self._get_new_session_key()
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py", line 164, in _get_new_session_key
+    if not self.exists(session_key):
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/contrib/sessions/backends/cache.py", line 71, in exists
+    return session_key and (self.cache_key_prefix + session_key) in self._cache
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/cache/backends/base.py", line 203, in __contains__
+    return self.has_key(key)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django_redis/cache.py", line 39, in _decorator
+    raise e.parent
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django_redis/client/default.py", line 472, in has_key
+    return client.exists(key) == 1
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/redis/commands/core.py", line 1612, in exists
+    return self.execute_command("EXISTS", *names)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/redis/client.py", line 1235, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/redis/connection.py", line 1387, in get_connection
+    connection.connect()
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/redis/connection.py", line 617, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2024-03-27 17:44:15,021 basehttp 124 "POST /register/ HTTP/1.1" 500 162106
+INFO 2024-03-27 17:45:04,686 basehttp 124 "POST /register/ HTTP/1.1" 200 4591
+WARNING 2024-03-27 17:45:10,155 base 152 Not Found: /
+WARNING 2024-03-27 17:45:10,155 basehttp 124 "GET / HTTP/1.1" 404 2093
+INFO 2024-03-27 17:45:17,660 basehttp 124 "GET /register/ HTTP/1.1" 200 4490
+WARNING 2024-03-27 17:45:17,738 base 152 Not Found: /image_codes/fe93bd52-96d5-44de-bb92-5b19d4bba92a/
+WARNING 2024-03-27 17:45:17,739 basehttp 124 "GET /image_codes/fe93bd52-96d5-44de-bb92-5b19d4bba92a/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 17:45:23,183 base 152 Not Found: /usernames/wangyutao/count/
+WARNING 2024-03-27 17:45:23,185 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 17:45:37,552 base 152 Not Found: /mobiles/13612345678/count/
+WARNING 2024-03-27 17:45:37,553 basehttp 124 "GET /mobiles/13612345678/count/ HTTP/1.1" 404 2189
+INFO 2024-03-27 17:45:42,561 basehttp 124 "POST /register/ HTTP/1.1" 200 4591
+WARNING 2024-03-27 17:45:42,710 base 152 Not Found: /image_codes/1452ba1a-5878-4db8-9735-c7c411ad3dd7/
+WARNING 2024-03-27 17:45:42,710 basehttp 124 "GET /image_codes/1452ba1a-5878-4db8-9735-c7c411ad3dd7/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 17:50:32,412 base 152 Not Found: /
+WARNING 2024-03-27 17:50:32,422 basehttp 124 "GET / HTTP/1.1" 404 2093
+WARNING 2024-03-27 17:50:44,903 base 152 Not Found: /usernames/wangyutao/count/
+WARNING 2024-03-27 17:50:44,905 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 17:50:56,204 base 152 Not Found: /mobiles/13612345678/count/
+WARNING 2024-03-27 17:50:56,205 basehttp 124 "GET /mobiles/13612345678/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 17:55:44,090 base 152 Not Found: /
+WARNING 2024-03-27 17:55:44,091 basehttp 124 "GET / HTTP/1.1" 404 2093
+WARNING 2024-03-27 17:55:51,915 base 152 Not Found: /
+WARNING 2024-03-27 17:55:51,915 basehttp 124 "GET / HTTP/1.1" 404 2093
+INFO 2024-03-27 17:56:01,810 basehttp 124 "POST /register/ HTTP/1.1" 200 4591
+INFO 2024-03-27 17:56:01,851 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7696
+WARNING 2024-03-27 17:56:01,876 base 152 Not Found: /image_codes/19ee6426-1b4f-48e1-a30f-30ebca9c62d3/
+WARNING 2024-03-27 17:56:01,878 basehttp 124 "GET /image_codes/19ee6426-1b4f-48e1-a30f-30ebca9c62d3/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 17:56:10,505 base 152 Not Found: /usernames/wangyutao1/count/
+WARNING 2024-03-27 17:56:10,506 basehttp 124 "GET /usernames/wangyutao1/count/ HTTP/1.1" 404 2192
+WARNING 2024-03-27 17:56:21,708 base 152 Not Found: /mobiles/13612345678/count/
+WARNING 2024-03-27 17:56:21,708 basehttp 124 "GET /mobiles/13612345678/count/ HTTP/1.1" 404 2189
+INFO 2024-03-27 17:56:26,576 basehttp 124 "POST /register/ HTTP/1.1" 200 4591
+WARNING 2024-03-27 17:56:26,705 base 152 Not Found: /image_codes/3dff43c5-5fbd-4b52-b080-623618d55c56/
+WARNING 2024-03-27 17:56:26,706 basehttp 124 "GET /image_codes/3dff43c5-5fbd-4b52-b080-623618d55c56/ HTTP/1.1" 404 2258
+INFO 2024-03-27 17:56:46,200 basehttp 124 "GET /register/ HTTP/1.1" 200 4490
+WARNING 2024-03-27 17:56:46,269 base 152 Not Found: /image_codes/4938e45c-cd9b-43ac-b165-9f8432a0434a/
+WARNING 2024-03-27 17:56:46,270 basehttp 124 "GET /image_codes/4938e45c-cd9b-43ac-b165-9f8432a0434a/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 17:57:02,711 base 152 Not Found: /usernames/wangyutao1111/count/
+WARNING 2024-03-27 17:57:02,715 basehttp 124 "GET /usernames/wangyutao1111/count/ HTTP/1.1" 404 2201
+WARNING 2024-03-27 17:57:25,553 base 152 Not Found: /mobiles/13611111111/count/
+WARNING 2024-03-27 17:57:25,555 basehttp 124 "GET /mobiles/13611111111/count/ HTTP/1.1" 404 2189
+ERROR 2024-03-27 17:57:30,988 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django_redis/cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django_redis/cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django_redis/client/default.py", line 474, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/shoppingmall/shoppingmall/apps/users/views.py", line 51, in post
+    login(request, user)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 140, in login
+    request.session.cycle_key()
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py", line 311, in cycle_key
+    self.create()
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/contrib/sessions/backends/cache.py", line 44, in create
+    self._session_key = self._get_new_session_key()
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py", line 164, in _get_new_session_key
+    if not self.exists(session_key):
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/contrib/sessions/backends/cache.py", line 71, in exists
+    return session_key and (self.cache_key_prefix + session_key) in self._cache
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/cache/backends/base.py", line 203, in __contains__
+    return self.has_key(key)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django_redis/cache.py", line 39, in _decorator
+    raise e.parent
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django_redis/client/default.py", line 472, in has_key
+    return client.exists(key) == 1
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/redis/commands/core.py", line 1612, in exists
+    return self.execute_command("EXISTS", *names)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/redis/client.py", line 1235, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/redis/connection.py", line 1387, in get_connection
+    connection.connect()
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/redis/connection.py", line 617, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2024-03-27 17:57:31,040 basehttp 124 "POST /register/ HTTP/1.1" 500 147421
+WARNING 2024-03-27 17:58:42,329 base 152 Not Found: /
+WARNING 2024-03-27 17:58:42,331 basehttp 124 "GET / HTTP/1.1" 404 2093
+INFO 2024-03-27 17:58:50,186 basehttp 124 "GET /register/ HTTP/1.1" 200 4490
+WARNING 2024-03-27 17:58:50,273 base 152 Not Found: /image_codes/7730ba45-9dc1-4e3f-8851-44dd666c26ec/
+WARNING 2024-03-27 17:58:50,274 basehttp 124 "GET /image_codes/7730ba45-9dc1-4e3f-8851-44dd666c26ec/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 17:58:57,245 base 152 Not Found: /usernames/wwwwww/count/
+WARNING 2024-03-27 17:58:57,247 basehttp 124 "GET /usernames/wwwwww/count/ HTTP/1.1" 404 2180
+WARNING 2024-03-27 17:59:14,494 base 152 Not Found: /mobiles/13111111111/count/
+WARNING 2024-03-27 17:59:14,494 basehttp 124 "GET /mobiles/13111111111/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 18:02:35,361 base 152 Not Found: /
+WARNING 2024-03-27 18:02:35,367 basehttp 124 "GET / HTTP/1.1" 404 2093
+WARNING 2024-03-27 18:02:35,433 base 152 Not Found: /favicon.ico
+WARNING 2024-03-27 18:02:35,438 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2144
+INFO 2024-03-27 18:02:44,121 basehttp 124 "GET /register HTTP/1.1" 301 0
+INFO 2024-03-27 18:02:44,139 basehttp 124 "GET /register/ HTTP/1.1" 200 4490
+INFO 2024-03-27 18:02:44,191 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2024-03-27 18:02:44,202 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2024-03-27 18:02:44,204 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2024-03-27 18:02:44,209 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2024-03-27 18:02:44,212 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2024-03-27 18:02:44,225 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7696
+INFO 2024-03-27 18:02:44,228 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 9786
+INFO 2024-03-27 18:02:44,255 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2024-03-27 18:02:44,262 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2024-03-27 18:02:44,268 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2024-03-27 18:03:11,158 basehttp 124 code 400, message Bad request syntax ('*2')
+WARNING 2024-03-27 18:03:11,158 basehttp 124 "*2" 400 -
+ERROR 2024-03-27 18:03:11,158 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django_redis/cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django_redis/cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django_redis/client/default.py", line 474, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Connection closed by server.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/shoppingmall/shoppingmall/apps/users/views.py", line 51, in post
+    login(request, user)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 140, in login
+    request.session.cycle_key()
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py", line 311, in cycle_key
+    self.create()
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/contrib/sessions/backends/cache.py", line 44, in create
+    self._session_key = self._get_new_session_key()
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py", line 164, in _get_new_session_key
+    if not self.exists(session_key):
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/contrib/sessions/backends/cache.py", line 71, in exists
+    return session_key and (self.cache_key_prefix + session_key) in self._cache
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/cache/backends/base.py", line 203, in __contains__
+    return self.has_key(key)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django_redis/cache.py", line 39, in _decorator
+    raise e.parent
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django_redis/client/default.py", line 472, in has_key
+    return client.exists(key) == 1
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/redis/commands/core.py", line 1612, in exists
+    return self.execute_command("EXISTS", *names)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/redis/client.py", line 1235, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/redis/connection.py", line 1387, in get_connection
+    connection.connect()
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/redis/connection.py", line 623, in connect
+    self.on_connect()
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/redis/connection.py", line 734, in on_connect
+    if str_if_bytes(self.read_response()) != "OK":
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/redis/connection.py", line 824, in read_response
+    response = self._parser.read_response(disable_decoding=disable_decoding)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/redis/connection.py", line 318, in read_response
+    raw = self._buffer.readline()
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/redis/connection.py", line 249, in readline
+    self._read_from_socket()
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/redis/connection.py", line 195, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+ERROR 2024-03-27 18:03:11,214 basehttp 124 "POST /register/ HTTP/1.1" 500 169125
+WARNING 2024-03-27 18:03:53,545 base 152 Not Found: /
+WARNING 2024-03-27 18:03:53,547 basehttp 124 "GET / HTTP/1.1" 404 2093
+WARNING 2024-03-27 18:04:19,674 base 152 Not Found: /
+WARNING 2024-03-27 18:04:19,676 basehttp 124 "GET / HTTP/1.1" 404 2093
+INFO 2024-03-27 18:04:25,991 basehttp 124 "GET /register/ HTTP/1.1" 200 4490
+INFO 2024-03-27 18:04:26,047 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2024-03-27 18:04:26,049 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 8192
+INFO 2024-03-27 18:04:26,051 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2024-03-27 18:05:09,782 basehttp 124 code 400, message Bad request syntax ('*2')
+WARNING 2024-03-27 18:05:09,782 basehttp 124 "*2" 400 -
+INFO 2024-03-27 18:15:54,941 basehttp 124 code 400, message Bad request syntax ('*2')
+WARNING 2024-03-27 18:15:54,942 basehttp 124 "*2" 400 -
+WARNING 2024-03-27 18:16:49,741 csrf 160 Forbidden (CSRF cookie not set.): /register/
+WARNING 2024-03-27 18:16:49,748 basehttp 124 "POST /register/ HTTP/1.1" 403 2857
+INFO 2024-03-27 18:17:20,422 basehttp 124 "POST /register/ HTTP/1.1" 200 4591
+INFO 2024-03-27 18:18:52,184 basehttp 124 "POST /register/ HTTP/1.1" 200 4591
+INFO 2024-03-27 18:19:17,240 basehttp 124 "POST /register/ HTTP/1.1" 302 0
+WARNING 2024-03-27 18:19:17,257 base 152 Not Found: /
+WARNING 2024-03-27 18:19:17,259 basehttp 124 "GET / HTTP/1.1" 404 2093
+WARNING 2024-03-27 18:25:11,557 base 152 Not Found: /
+WARNING 2024-03-27 18:25:11,558 basehttp 124 "GET / HTTP/1.1" 404 2093
+INFO 2024-03-27 18:25:16,266 basehttp 124 "GET /register/ HTTP/1.1" 200 4490
+WARNING 2024-03-27 18:25:16,410 base 152 Not Found: /image_codes/c9375723-e721-487a-8a8f-d3f32745bd15/
+WARNING 2024-03-27 18:25:16,410 basehttp 124 "GET /image_codes/c9375723-e721-487a-8a8f-d3f32745bd15/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 18:25:23,459 base 152 Not Found: /usernames/abcde/count/
+WARNING 2024-03-27 18:25:23,463 basehttp 124 "GET /usernames/abcde/count/ HTTP/1.1" 404 2177
+WARNING 2024-03-27 18:25:39,031 base 152 Not Found: /mobiles/18211111111/count/
+WARNING 2024-03-27 18:25:39,031 basehttp 124 "GET /mobiles/18211111111/count/ HTTP/1.1" 404 2189
+ERROR 2024-03-27 18:25:44,182 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django_redis/cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django_redis/cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django_redis/client/default.py", line 474, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/shoppingmall/shoppingmall/apps/users/views.py", line 51, in post
+    login(request, user)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 140, in login
+    request.session.cycle_key()
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py", line 311, in cycle_key
+    self.create()
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/contrib/sessions/backends/cache.py", line 44, in create
+    self._session_key = self._get_new_session_key()
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py", line 164, in _get_new_session_key
+    if not self.exists(session_key):
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/contrib/sessions/backends/cache.py", line 71, in exists
+    return session_key and (self.cache_key_prefix + session_key) in self._cache
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/cache/backends/base.py", line 203, in __contains__
+    return self.has_key(key)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django_redis/cache.py", line 39, in _decorator
+    raise e.parent
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django_redis/client/default.py", line 472, in has_key
+    return client.exists(key) == 1
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/redis/commands/core.py", line 1612, in exists
+    return self.execute_command("EXISTS", *names)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/redis/client.py", line 1235, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/redis/connection.py", line 1387, in get_connection
+    connection.connect()
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/redis/connection.py", line 617, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2024-03-27 18:25:44,235 basehttp 124 "POST /register/ HTTP/1.1" 500 147373
+INFO 2024-03-27 18:27:54,689 basehttp 124 "POST /register/ HTTP/1.1" 200 4591
+INFO 2024-03-27 18:27:54,733 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7696
+WARNING 2024-03-27 18:27:54,762 base 152 Not Found: /image_codes/83c29994-8a5b-42f9-814e-7ac5af0f4dbf/
+WARNING 2024-03-27 18:27:54,764 basehttp 124 "GET /image_codes/83c29994-8a5b-42f9-814e-7ac5af0f4dbf/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 18:28:07,515 base 152 Not Found: /usernames/wywywywy/count/
+WARNING 2024-03-27 18:28:07,522 basehttp 124 "GET /usernames/wywywywy/count/ HTTP/1.1" 404 2186
+WARNING 2024-03-27 18:28:22,323 base 152 Not Found: /mobiles/18911111111/count/
+WARNING 2024-03-27 18:28:22,324 basehttp 124 "GET /mobiles/18911111111/count/ HTTP/1.1" 404 2189
+INFO 2024-03-27 18:28:25,986 basehttp 124 "POST /register/ HTTP/1.1" 302 0
+WARNING 2024-03-27 18:28:26,009 base 152 Not Found: /
+WARNING 2024-03-27 18:28:26,016 basehttp 124 "GET / HTTP/1.1" 404 2093
+INFO 2024-03-27 18:33:31,904 basehttp 124 "GET /register/ HTTP/1.1" 200 4490
+INFO 2024-03-27 18:33:31,990 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7696
+WARNING 2024-03-27 18:33:32,009 base 152 Not Found: /image_codes/c1e0e2f7-7fbd-4847-b7d3-067903faac2b/
+WARNING 2024-03-27 18:33:32,010 basehttp 124 "GET /image_codes/c1e0e2f7-7fbd-4847-b7d3-067903faac2b/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 18:44:09,474 base 152 Not Found: /usernames/wywywywy/count/
+WARNING 2024-03-27 18:44:09,475 basehttp 124 "GET /usernames/wywywywy/count/ HTTP/1.1" 404 2186
+WARNING 2024-03-27 18:44:26,588 base 152 Not Found: /usernames/wangyutao/count/
+WARNING 2024-03-27 18:44:26,588 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 18:44:30,132 base 152 Not Found: /usernames/wangyutao/count/
+WARNING 2024-03-27 18:44:30,132 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 18:44:33,527 base 152 Not Found: /usernames/wangyutao/count/
+WARNING 2024-03-27 18:44:33,530 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 404 2189
+INFO 2024-03-27 18:45:53,597 basehttp 124 "GET /register/ HTTP/1.1" 200 4490
+WARNING 2024-03-27 18:45:53,727 base 152 Not Found: /image_codes/9d9f53d2-8ca2-4c49-8206-686c5c2153d4/
+WARNING 2024-03-27 18:45:53,727 basehttp 124 "GET /image_codes/9d9f53d2-8ca2-4c49-8206-686c5c2153d4/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 18:46:02,156 base 152 Not Found: /usernames/wangyutao/count/
+WARNING 2024-03-27 18:46:02,158 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 18:46:07,151 base 152 Not Found: /usernames/wangyutao/count/
+WARNING 2024-03-27 18:46:07,153 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 18:48:23,928 base 152 Not Found: /
+WARNING 2024-03-27 18:48:23,932 basehttp 124 "GET / HTTP/1.1" 404 2093
+INFO 2024-03-27 18:48:30,672 basehttp 124 "GET /register/ HTTP/1.1" 200 4490
+INFO 2024-03-27 18:48:30,887 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2024-03-27 18:48:30,888 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 8192
+INFO 2024-03-27 18:48:30,899 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7696
+WARNING 2024-03-27 18:48:30,967 base 152 Not Found: /image_codes/46955ec1-d216-4a89-b14e-09258316f626/
+WARNING 2024-03-27 18:48:30,970 basehttp 124 "GET /image_codes/46955ec1-d216-4a89-b14e-09258316f626/ HTTP/1.1" 404 2258
+INFO 2024-03-27 18:48:30,975 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2024-03-27 18:48:30,987 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 8192
+WARNING 2024-03-27 18:48:38,398 base 152 Not Found: /usernames/wangyutao/count/
+WARNING 2024-03-27 18:48:38,404 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 18:49:48,578 base 152 Not Found: /usernames/wangyutao/count/
+WARNING 2024-03-27 18:49:48,586 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 18:50:13,017 base 152 Not Found: /mobiles/13111111111/count/
+WARNING 2024-03-27 18:50:13,021 basehttp 124 "GET /mobiles/13111111111/count/ HTTP/1.1" 404 2189
+INFO 2024-03-27 18:50:20,499 basehttp 124 "POST /register/ HTTP/1.1" 200 4591
+WARNING 2024-03-27 18:50:21,408 base 152 Not Found: /image_codes/17284de6-50f8-4b46-8e63-a9609d41bce2/
+WARNING 2024-03-27 18:50:21,414 basehttp 124 "GET /image_codes/17284de6-50f8-4b46-8e63-a9609d41bce2/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 18:50:35,258 base 152 Not Found: /usernames/wangyutao/count/
+WARNING 2024-03-27 18:50:35,265 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 18:50:52,973 base 152 Not Found: /usernames/wangyutao/count/
+WARNING 2024-03-27 18:50:52,984 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 18:53:59,126 base 152 Not Found: /
+WARNING 2024-03-27 18:53:59,132 basehttp 124 "GET / HTTP/1.1" 404 2093
+WARNING 2024-03-27 18:53:59,486 base 152 Not Found: /favicon.ico
+WARNING 2024-03-27 18:53:59,489 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2144
+INFO 2024-03-27 18:54:07,530 basehttp 124 "GET /register/ HTTP/1.1" 200 4490
+INFO 2024-03-27 18:54:07,904 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7696
+WARNING 2024-03-27 18:54:08,061 base 152 Not Found: /image_codes/764ac9aa-8e0b-4715-853c-21d3a8976c3d/
+WARNING 2024-03-27 18:54:08,071 basehttp 124 "GET /image_codes/764ac9aa-8e0b-4715-853c-21d3a8976c3d/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 18:54:17,510 base 152 Not Found: /usernames/wangyutao/count/
+WARNING 2024-03-27 18:54:17,523 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 18:54:20,608 base 152 Not Found: /usernames/wangyutao/count/
+WARNING 2024-03-27 18:54:20,609 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 18:54:23,423 base 152 Not Found: /usernames/wangyutao/count/
+WARNING 2024-03-27 18:54:23,429 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 404 2189
+INFO 2024-03-27 18:55:20,006 basehttp 124 "GET /register/ HTTP/1.1" 200 4490
+WARNING 2024-03-27 18:55:20,514 base 152 Not Found: /image_codes/4cf926c0-b5d3-4bf4-8bfe-f636d9cc0162/
+WARNING 2024-03-27 18:55:20,522 basehttp 124 "GET /image_codes/4cf926c0-b5d3-4bf4-8bfe-f636d9cc0162/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 18:55:30,187 base 152 Not Found: /usernames/wangyutao/count/
+WARNING 2024-03-27 18:55:30,194 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 18:55:32,962 base 152 Not Found: /usernames/wangyutao/count/
+WARNING 2024-03-27 18:55:32,966 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 404 2189
+WARNING 2024-03-27 18:55:37,253 base 152 Not Found: /usernames/wangyutao/count/
+WARNING 2024-03-27 18:55:37,277 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 404 2189
+INFO 2024-03-27 18:56:48,979 basehttp 124 "GET /register/ HTTP/1.1" 200 4490
+WARNING 2024-03-27 18:56:49,560 base 152 Not Found: /image_codes/3e65e3b3-1198-4634-bf01-076fa6d82957/
+WARNING 2024-03-27 18:56:49,573 basehttp 124 "GET /image_codes/3e65e3b3-1198-4634-bf01-076fa6d82957/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 18:56:57,888 base 152 Not Found: /usernames/wywytr/count/
+WARNING 2024-03-27 18:56:57,899 basehttp 124 "GET /usernames/wywytr/count/ HTTP/1.1" 404 2180
+WARNING 2024-03-27 18:57:00,820 base 152 Not Found: /usernames/wywytr/count/
+WARNING 2024-03-27 18:57:00,834 basehttp 124 "GET /usernames/wywytr/count/ HTTP/1.1" 404 2180
+WARNING 2024-03-27 18:57:09,781 base 152 Not Found: /
+WARNING 2024-03-27 18:57:09,785 basehttp 124 "GET / HTTP/1.1" 404 2093
+WARNING 2024-03-27 18:57:10,134 base 152 Not Found: /favicon.ico
+WARNING 2024-03-27 18:57:10,136 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2144
+INFO 2024-03-27 18:57:15,056 basehttp 124 "GET /register/ HTTP/1.1" 200 4490
+INFO 2024-03-27 18:57:15,298 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2024-03-27 18:57:15,309 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 8192
+WARNING 2024-03-27 18:57:15,431 base 152 Not Found: /image_codes/eb301a6c-6eb5-47c5-99fe-ea08ceb3fbe6/
+WARNING 2024-03-27 18:57:15,437 basehttp 124 "GET /image_codes/eb301a6c-6eb5-47c5-99fe-ea08ceb3fbe6/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 18:57:19,283 base 152 Not Found: /usernames/wywywywy/count/
+WARNING 2024-03-27 18:57:19,290 basehttp 124 "GET /usernames/wywywywy/count/ HTTP/1.1" 404 2186
+INFO 2024-03-27 18:58:07,795 basehttp 124 "GET /register/ HTTP/1.1" 200 4490
+WARNING 2024-03-27 18:58:08,404 base 152 Not Found: /image_codes/646cd641-7b7f-4b46-b46c-ea3242eb39e2/
+WARNING 2024-03-27 18:58:08,406 basehttp 124 "GET /image_codes/646cd641-7b7f-4b46-b46c-ea3242eb39e2/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 18:58:24,163 base 152 Not Found: /
+WARNING 2024-03-27 18:58:24,188 basehttp 124 "GET / HTTP/1.1" 404 2093
+WARNING 2024-03-27 18:58:24,672 base 152 Not Found: /favicon.ico
+WARNING 2024-03-27 18:58:24,678 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2144
+WARNING 2024-03-27 18:59:59,348 base 152 Not Found: /
+WARNING 2024-03-27 18:59:59,350 basehttp 124 "GET / HTTP/1.1" 404 2093
+INFO 2024-03-27 19:00:02,568 basehttp 124 "GET /register/ HTTP/1.1" 200 4490
+INFO 2024-03-27 19:00:02,831 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7696
+WARNING 2024-03-27 19:00:02,921 base 152 Not Found: /image_codes/eac8482d-937c-4a68-afd0-03bdb716dc0c/
+WARNING 2024-03-27 19:00:02,921 basehttp 124 "GET /image_codes/eac8482d-937c-4a68-afd0-03bdb716dc0c/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 19:01:27,389 base 152 Not Found: /
+WARNING 2024-03-27 19:01:27,392 basehttp 124 "GET / HTTP/1.1" 404 2093
+INFO 2024-03-27 19:01:30,683 basehttp 124 "GET /register/ HTTP/1.1" 200 4489
+INFO 2024-03-27 19:01:30,754 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2024-03-27 19:01:30,754 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 8192
+INFO 2024-03-27 19:01:30,757 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+WARNING 2024-03-27 19:01:30,757 basehttp 124 "GET /static/js/registe.js HTTP/1.1" 404 1652
+INFO 2024-03-27 19:01:30,759 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7696
+INFO 2024-03-27 19:01:30,798 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2024-03-27 19:01:30,799 basehttp 124 "GET /static/js/registe.js HTTP/1.1" 404 1652
+INFO 2024-03-27 19:01:30,799 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2024-03-27 19:01:30,800 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+WARNING 2024-03-27 19:01:30,853 base 152 Not Found: /favicon.ico
+WARNING 2024-03-27 19:01:30,854 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2144
+INFO 2024-03-27 19:01:51,672 basehttp 124 "GET /register/ HTTP/1.1" 200 4490
+WARNING 2024-03-27 19:01:51,799 base 152 Not Found: /image_codes/37af39a1-fb98-4709-8119-ccc28c9deeeb/
+WARNING 2024-03-27 19:01:51,800 basehttp 124 "GET /image_codes/37af39a1-fb98-4709-8119-ccc28c9deeeb/ HTTP/1.1" 404 2258
+WARNING 2024-03-27 19:01:51,838 base 152 Not Found: /favicon.ico
+WARNING 2024-03-27 19:01:51,839 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2144
+INFO 2024-03-27 19:36:24,654 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 200 41
+WARNING 2024-03-27 19:38:04,335 base 152 Not Found: /
+WARNING 2024-03-27 19:38:04,347 basehttp 124 "GET / HTTP/1.1" 404 2322
+WARNING 2024-03-27 19:51:43,849 base 152 Not Found: /
+WARNING 2024-03-27 19:51:43,854 basehttp 124 "GET / HTTP/1.1" 404 2322
+WARNING 2024-03-27 19:56:52,261 base 152 Not Found: /
+WARNING 2024-03-27 19:56:52,264 basehttp 124 "GET / HTTP/1.1" 404 2322
+WARNING 2024-03-27 20:08:29,509 base 152 Not Found: /
+WARNING 2024-03-27 20:08:29,514 basehttp 124 "GET / HTTP/1.1" 404 2322
+WARNING 2024-03-27 20:09:16,030 base 152 Not Found: /
+WARNING 2024-03-27 20:09:16,032 basehttp 124 "GET / HTTP/1.1" 404 2322
+WARNING 2024-03-27 20:09:16,041 base 152 Not Found: /
+WARNING 2024-03-27 20:09:16,044 basehttp 124 "GET / HTTP/1.1" 404 2322
+WARNING 2024-03-27 20:09:16,771 base 152 Not Found: /favicon.ico
+WARNING 2024-03-27 20:09:16,778 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2373
+INFO 2024-03-27 20:19:33,853 basehttp 124 "GET /register/ HTTP/1.1" 200 4490
+INFO 2024-03-27 20:19:33,893 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2024-03-27 20:19:33,895 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2024-03-27 20:19:33,895 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7696
+WARNING 2024-03-27 20:19:33,956 base 152 Not Found: /image_codes/948e96e3-2a6e-4037-8278-e0f28e0ca01c/
+WARNING 2024-03-27 20:19:33,956 basehttp 124 "GET /image_codes/948e96e3-2a6e-4037-8278-e0f28e0ca01c/ HTTP/1.1" 404 2702
+INFO 2024-03-27 20:19:33,959 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 8192
+INFO 2024-03-27 20:19:33,964 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2024-03-27 20:19:33,965 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+WARNING 2024-03-27 20:19:34,014 base 152 Not Found: /favicon.ico
+WARNING 2024-03-27 20:19:34,015 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2588
+INFO 2024-03-27 20:19:40,212 basehttp 124 "GET /mobiles/13612345678/count/ HTTP/1.1" 200 41
