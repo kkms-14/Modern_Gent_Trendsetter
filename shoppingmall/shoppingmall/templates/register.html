@@ -13,8 +13,8 @@
 <body>
 <div class="register_con">
     <div class="l_con fl">
-        <a href="l" class="reg_logo"><img src="{{ static("images/logo.png") }}" width="100"></a>
-        <div class="reg_slogan">Welcome to Shop</div>
+        <a href="l" class="reg_logo"><img src="{{ static("images/logo.png") }}"></a>
+        <div class="reg_slogan">汇 集 潮 流 服 装</div>
         <div class="reg_banner"></div>
     </div>
 
@@ -59,6 +59,9 @@
                                @blur="check_sms_code">
                         <a href="javascript:;" class="get_msg_code" @click="send_sms_code">[[sms_code_tip]]</a>
                         <span class="error_tip" v-show="error_sms_code">[[ error_sms_code_message ]]</span>
+                        {% if register_errmsg %}
+                            <span class="error_tip2">{{ register_errmsg }}</span>
+                        {% endif %}
                     </li>
                     <li class="agreement">
                         <input type="checkbox" name="allow" id="allow" checked="checked" v-model="allow">
@@ -67,9 +70,7 @@
                     </li>
                     <li class="reg_sub">
                         <input type="submit" value="注 册">
-                        {% if register_errmsg %}
-                            <span class="error_tip2">{{ register_errmsg }}</span>
-                        {% endif %}
+                        
                     </li>
                 </ul>
             </form>

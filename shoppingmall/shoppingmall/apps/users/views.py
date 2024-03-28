@@ -8,6 +8,7 @@ from django.shortcuts import render, redirect
 # Create your views here.
 from django.http import HttpResponse, HttpRequest, JsonResponse
 from django.views import View
+from django_redis import get_redis_connection
 
 from shoppingmall.utils.response_code import RETCODE
 from users.models import User
@@ -43,6 +44,12 @@ class RegisterView(View):
             return http.HttpResponseForbidden('请输⼊正确的⼿机号码')
         if allow != 'on':
             return http.HttpResponseForbidden('请勾选⽤户协议')
+        connection = get_redis_connection('sms_code')
+        sms_code_redis = connection.get(mobile)
+        if sms_code_redis is None:
+            return render(request, 'register.html', {'register_errmsg': "短信验证码无效"})
+        if sms_code != sms_code_redis.decode():
+            return render(request, 'register.html', {'register_errmsg': "短信验证码错误"})
 
         # 3
         try:
