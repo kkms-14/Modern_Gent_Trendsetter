@@ -44,7 +44,7 @@ var vm = new Vue({
                     responseType: 'json'
                 })
                 .then(response => {
-                    this.hots = response.data.hot_sku_list;
+                    this.hots = response.data.hot_skus;
                     for(var i=0; i<this.hots.length; i++){
                         this.hots[i].url = '/goods/' + this.hots[i].id + '.html';
                     }
@@ -67,7 +67,7 @@ var vm = new Vue({
 // $(function () {
 //
 //     // 获取并展示购物车数据
-//     get_cart();
+////     get_cart();
 //
 //     // 获取热销商品
 // 	var category_id = $('.breadcrumb').attr('category_id');

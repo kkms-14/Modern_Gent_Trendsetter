@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'users.apps.UsersConfig',
     'verifications.apps.VerificationsConfig',
     'content.apps.ContentConfig',
+    'areas.apps.AreasConfig',
 ]
 
 MIDDLEWARE = [

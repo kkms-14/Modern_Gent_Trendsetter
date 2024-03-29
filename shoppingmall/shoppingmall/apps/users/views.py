@@ -1,3 +1,4 @@
+import json
 import re
 
 from django import http
@@ -14,7 +15,7 @@ from django.views import View
 from django_redis import get_redis_connection
 
 from shoppingmall.utils.response_code import RETCODE
-from users.models import User
+from users.models import User, Address
 
 
 class RegisterView(View):
@@ -152,8 +153,71 @@ class UserCenterView(LoginRequiredMixin, View):
     def get(self, request):
         context = {
             'username': request.user.username,
-            'mobile' : request.user.mobile,
+            'mobile': request.user.mobile,
             'email': request.user.email,
             'email_active': request.user.email_active
         }
         return render(request, 'user_center_info.html', context)
+
+
+class AddressView(View):
+    def get(self, request):
+        return render(request, 'user_center_address.html')
+
+    def post(self, request):
+        data_dict = json.loads(request.body.decode())
+        title = data_dict.get('title')
+        receiver = data_dict.get('receiver')
+        province_id = data_dict.get('province_id')
+        city_id = data_dict.get('city_id')
+        district_id = data_dict.get('district_id')
+        place = data_dict.get('place')
+        mobile = data_dict.get('mobile')
+        tel = data_dict.get('tel')
+        email = data_dict.get('email')
+
+        if not all([receiver, province_id, city_id, district_id, place, mobile]):
+            return HttpResponseForbidden('缺少信息')
+        if not re.match(r'^1[345789]\d{9}$', mobile):
+            return HttpResponseForbidden('手机号格式错误')
+        if tel and not re.match(r'^(0[0-9]{2,3}-)?([2-9][0-9]{6,7})+(-[0-9]{1,4})?$', tel):
+            return HttpResponseForbidden('电话格式错误')
+        if email and re.match(r'^[a-z0-9][\w\.\-]*@[a-z0-9\-]+(\.[a-z]{2,5}){1,2}$', email):
+            return HttpResponseForbidden('邮箱格式错误')
+        if not title:
+            title = receiver
+
+        try:
+            address: Address = Address.objects.create(
+                title=title,
+                receiver=receiver,
+                province_id=province_id,
+                city_id=city_id,
+                district_id=district_id,
+                place=place,
+                mobile=mobile,
+                telephone=tel,
+                email=email,
+                user=request.user
+            )
+        except Exception:
+            return JsonResponse({'code': RETCODE.DBERR, 'errmsg': '新增地址失败'})
+
+        address_dict = {
+            'id': address,
+            'title': title,
+            'receiver': receiver,
+            'province': address.province.name,
+            'province_id': address.province_id,
+            'city': address.city.name,
+            'city_id': address.city_id,
+            'district': address.district.name,
+            'district_id': address.district_id,
+            'place': address.place,
+            'mobile': address.mobile,
+            'tel': address.telephone,
+            'email': address.email,
+        }
+        return JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK', 'address': address_dict})
+
+
