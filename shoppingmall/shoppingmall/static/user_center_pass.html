@@ -4,11 +4,11 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>蜗牛商城-用户中心</title>
-    <link rel="stylesheet" type="text/css" href=".css">
-    <link rel="stylesheet" type="text/css" href="css">
-    <script type="text/javascript" src="s"></script>
-    <script type="text/javascript" src="5.16.js"></script>
-    <script type="text/javascript" src="0.18.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../static/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+    <script type="text/javascript" src="../static/js/host.js"></script>
+    <script type="text/javascript" src="../static/js/vue-2.5.16.js"></script>
+    <script type="text/javascript" src="../static/js/axios-0.18.0.min.js"></script>
 </head>
 <body>
 <div id="app" v-cloak>
@@ -25,16 +25,16 @@
                     <span>|</span>
                     <a href="/info/">用户中心</a>
                     <span>|</span>
-                    <a href="">我的购物车</a>
+                    <a href="../static/cart.html">我的购物车</a>
                     <span>|</span>
-                    <a href="er_order.html">我的订单</a>
+                    <a href="../static/user_center_order.html">我的订单</a>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="search_bar clearfix">
-        <a href="index.html" class="logo fl"><img src="/images/logo.png"></a>
+        <a href="../templates/index.html" class="logo fl"><img src="../static/images/logo.png"></a>
         <div class="search_wrap fl">
             <form method="get" action="/search/" class="search_con">
                 <input type="text" class="input_text fl" name="q" placeholder="搜索商品">
@@ -54,7 +54,7 @@
             <h3>用户中心</h3>
             <ul>
                 <li><a href="/info/">· 个人信息</a></li>
-                <li><a href="er_order.html">· 全部订单</a></li>
+                <li><a href="../static/user_center_order.html">· 全部订单</a></li>
                 <li><a href="/addresses/">· 收货地址</a></li>
                 <li><a href="/password/" class="active">· 修改密码</a></li>
             </ul>
@@ -103,7 +103,7 @@
         <p>电话：010-****888 京ICP备*******8号</p>
     </div>
 </div>
-<script type="text/javascript" src=".js"></script>
-<script type="text/javascript" src="enter_pass.js"></script>
+<script type="text/javascript" src="../static/js/common.js"></script>
+<script type="text/javascript" src="../static/js/user_center_pass.js"></script>
 </body>
 </html>

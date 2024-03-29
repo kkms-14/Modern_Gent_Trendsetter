@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'users.apps.UsersConfig',
     'verifications.apps.VerificationsConfig',
+    'content.apps.ContentConfig',
 ]
 
 MIDDLEWARE = [
@@ -205,4 +206,9 @@ LOGGING = {
 
 # 用户认证
 AUTH_USER_MODEL = 'users.User'
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+    'users.utils.MobileModelBackend',
+]
 
+LOGIN_URL = '/login/'

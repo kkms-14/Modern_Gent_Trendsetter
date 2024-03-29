@@ -1,4 +1,5 @@
 import json
+import logging
 from shoppingmall.libs.ronglian_sms_sdk import SmsSDK
 
 # 说明： 主账号， 登陆云通讯⽹站后， 可在"控制台-应⽤"中看到开发者主账号ACCOUNT SID
@@ -13,17 +14,17 @@ appId = '2c94811c8cd4da0a018e84404c534a38'
 
 def send_sms_code(mobiles, code):
     """
-    使用容联云通讯发送短信验证码
-    mobiles:接收短信的手机号
-    code:短信验证码
+       使用容联云通讯发送短信验证码
+       :param mobiles: 接收短信的手机号列表
+       :param code: 短信验证码
+       :return:
     """
     sdk = SmsSDK(accId, accToken, appId)
-    tid = '1'
-    mobile = ','.join(mobiles)
-    # 您的验证码为{1}，请于{2}内正确输入，如非本人操作，请忽略此短信。
-    datas = (code, '1')
+    tid = '1'  # 您的验证码为{1}，请于{2}内正确输入，如非本人操作，请忽略此短信。
+    mobile = ",".join(mobiles)
+    datas = (code, '5')
+    logging.getLogger("django").info(code)  #打印短信验证码
     resp = sdk.sendMessage(tid, mobile, datas)
-    # 格式转化，因为报了AttributeError: 'str' object has no attribute 'get'错误
     resp = json.loads(resp)
     if resp.get("statusCode") == "000000":
         return True

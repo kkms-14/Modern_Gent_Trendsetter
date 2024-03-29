@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>蜗牛商城-登录</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+    <script type="text/javascript" src="../static/js/host.js"></script>
+    <script type="text/javascript" src="../static/js/vue-2.5.16.js"></script>
+    <script type="text/javascript" src="../static/js/axios-0.18.0.min.js"></script>
+</head>
+<body>
+<div id="app" v-cloak>
+    <div class="login_top clearfix">
+        <a href="index.html" class="login_logo"><img src="../static/images/logo02.png"></a>
+    </div>
+    <div class="login_form_bg">
+        <div class="login_form_wrap clearfix">
+            <div class="login_banner fl"></div>
+            <div class="slogan fl">欢迎光临</div>
+            <div class="login_form fr">
+                <div class="login_title clearfix">
+                    <a href="javascript:;" class="cur">账户登录</a>
+                </div>
+                <div class="form_con">
+                    <div class="form_input cur">
+                        <form method="post" class="login" @submit="on_submit">
+                            {{ csrf_input }}
+                            <input type="text" name="username" v-model="username" @blur="check_username"
+                                   class="name_input" placeholder="请输入用户或者手机号">
+                            <div class="user_error" v-show="error_username">[[ error_username_message ]]</div>
+                            <input type="password" name="password" v-model="password" @blur="check_pwd" class="pass_input"
+                                   placeholder="请输入密码">
+                            <!--
+                            <input>：这是一个HTML输入元素，它用于接收用户输入的数据。在这里，type="password"表示输入框的类型是密码输入框，它会将用户输入的内容隐藏为圆点或星号，以保护用户的密码安全。
+                            name="password"：name属性用于标识输入框的名称。在提交表单时，输入框的名称将作为数据的键，其值将是用户输入的内容。
+                            v-model="password"：v-model是Vue.js中的一个指令，用于实现双向数据绑定。在这里，v-model="password"表示将输入框的值与Vue实例中的password属性进行双向绑定，即当用户在输入框中输入内容时，password属性的值也会自动更新；反之亦然，当password属性的值发生变化时，输入框中的内容也会相应地更新。
+                            @blur="check_pwd"：@blur是Vue.js中的一个事件监听器，它用于在指定的事件发生时执行特定的方法。在这里，@blur="check_pwd"表示当输入框失去焦点时（即用户点击其他地方或切换到其他输入框），将会触发名为check_pwd的方法。
+                            class="pass_input"：class属性用于为HTML元素添加样式类。在这里，class="pass_input"将为输入框添加一个名为pass_input的样式类，可以用于自定义输入框的样式。
+                            placeholder="请输入密码"：placeholder属性用于在输入框中显示一段灰色的提示文本，提示用户应该在该输入框中输入什么内容。在这里，placeholder="请输入密码"表示在输入框中显示“请输入密码”这段提示文本。
+                            总结：该HTML代码片段创建了一个密码输入框，用于接收用户输入的密码。通过Vue.js的双向数据绑定和事件监听器，可以方便地获取用户输入的密码，并在失去焦点时执行相应的检查方法。同时，该输入框也可以通过指定的样式类进行自定义样式设置。
+                            -->
+                            <div class="pwd_error" v-show="error_password">[[ error_password_message ]]</div>
+                            <div class="more_input clearfix">
+                                <input type="checkbox" name="remembered" v-model="remembered">
+                                <label>记住登录</label>
+                            </div>
+                            {% if loginerror %}  <!-- 显示错误标签的-->
+                                <span class="error_tip2">{{ loginerror }}</span>
+                            {% endif %}
+                            <input type="submit" value="登 录" class="input_submit">
+                        </form>
+                    </div>
+                </div>
+                <div class="third_party">
+                    <a href="javascript:;" class="qq_login" @click="qq_login">QQ</a>
+                    <a href="#" class="weixin_login">微信</a>
+                    <a href="/register/" class="register_btn">立即注册</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="footer no-mp">
+        <div class="foot_link">
+            <a href="#">关于我们</a>
+            <span>|</span>
+            <a href="#">联系我们</a>
+        </div>
+        <p>CopyRight © 2024 xxxx有限公司 All Rights Reserved</p>
+        <p>电话：xxx-****888 京ICP备*******8号</p>
+    </div>
+</div>
+<script type="text/javascript" src="../static/js/common.js"></script>
+<script type="text/javascript" src="../static/js/login.js"></script>
+</body>
+</html>

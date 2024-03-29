@@ -1,25 +1,24 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
 {#{% load static %}#}
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>{% block title %}{% endblock title %}</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>{% block title %}{% endblock title %}</title>
 
     {% block head %}{% endblock head %}
 
-    <link rel="stylesheet" type="text/css" href="{{ static('css/reset.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ static('css/main.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ static('css/reset.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ static('css/main.css') }}">
     <script type="text/javascript" src="{{ static('js/host.js') }}"></script>
-    <script type="text/javascript" src="{{ static('js/vue-2.5.16.js') }}"></script>
+	<script type="text/javascript" src="{{ static('js/vue-2.5.16.js') }}"></script>
     <script type="text/javascript" src="{{ static('js/axios-0.18.0.min.js') }}"></script>
     <script type="text/javascript" src="{{ static('js/jquery-1.12.4.min.js') }}"></script>
 </head>
 <body>
-<div id="app" v-cloak>
-    <div class="header_con">
+    <div id="app" v-cloak>
+    <div class="header_con" >
         <div class="header">
             <div class="welcome fl">欢迎来到蜗牛商城!</div>
             <div class="fr">
@@ -81,28 +80,27 @@
                 <div class="sub_menu_con fl">
                     <h1 class="fl">商品分类</h1>
                     <ul class="sub_menu">
-                        {#                        {% for group in categories.values %}#}
+{#                        {% for group in categories.values %}#}
                         {% for group in categories.values() %}
-                            <li>
-                                <div class="level1">
-                                    {% for channel in group.channels %}
-                                        <a href="{{ channel.url }}">{{ channel.name }}</a>
-                                    {% endfor %}
+                        <li>
+                            <div class="level1">
+                                {% for channel in group.channels %}
+                                <a href="{{ channel.url }}">{{ channel.name }}</a>
+                                {% endfor %}
+                            </div>
+                            <div class="level2">
+                                {% for cat2 in group.sub_cats %}
+                                <div class="list_group">
+                                    <div class="group_name fl">{{cat2.name}} &gt;</div>
+                                    <div class="group_detail fl">
+                                        {% for cat3 in cat2.sub_cats %}
+                                        <a href="{{ url('goods:list', args=(cat3.id, 1)) }}">{{cat3.name}}</a>
+                                        {% endfor %}
+                                    </div>
                                 </div>
-                                <div class="level2">
-                                    {% for cat2 in group.sub_cats %}
-                                        <div class="list_group">
-                                            <div class="group_name fl">{{ cat2.name }} &gt;</div>
-                                            <div class="group_detail fl">
-                                                {% for cat3 in cat2.sub_cats %}
-                                                    <a href="
-                                                            {{ url('goods:list', args=(cat3.id, 1)) }}">{{ cat3.name }}</a>
-                                                {% endfor %}
-                                            </div>
-                                        </div>
-                                    {% endfor %}
-                                </div>
-                            </li>
+                                {% endfor %}
+                            </div>
+                        </li>
                         {% endfor %}
                     </ul>
                 </div>
@@ -131,14 +129,14 @@
             <a href="#">友情链接</a>
         </div>
         <p>CopyRight © 2016 北京蜗牛商业股份有限公司 All Rights Reserved</p>
-        <p>电话：010-****888 京ICP备*******8号</p>
+        <p>电话：010-****888    京ICP备*******8号</p>
     </div>
-</div>
+    </div>
 
-<script type="text/javascript" src="{{ static('js/common.js') }}"></script>
-<script type="text/javascript" src="{{ static('js/base.js') }}"></script>
+    <script type="text/javascript" src="{{ static('js/common.js') }}"></script>
+    <script type="text/javascript" src="{{ static('js/base.js') }}"></script>
 
-{% block bottom %}{% endblock bottom %}
+    {% block bottom %}{% endblock bottom %}
 
 </body>
 </html>

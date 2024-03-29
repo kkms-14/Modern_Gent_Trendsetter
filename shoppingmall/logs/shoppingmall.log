@@ -1207,3 +1207,799 @@ INFO 2024-03-28 11:10:52,825 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/
 INFO 2024-03-28 11:10:53,161 basehttp 124 "GET /sms_codes/13699109260/?image_code=WYB5&image_code_id=f437778a-a956-4df1-ad49-e48eeb30c7a0 HTTP/1.1" 200 29
 INFO 2024-03-28 11:11:04,308 basehttp 124 "POST /register/ HTTP/1.1" 200 4618
 INFO 2024-03-28 11:11:04,381 basehttp 124 "GET /image_codes/8ad840c6-9393-4a3a-9e28-13893c729cd4/ HTTP/1.1" 200 3287
+WARNING 2024-03-28 16:32:06,329 base 152 Not Found: /
+WARNING 2024-03-28 16:32:06,330 basehttp 124 "GET / HTTP/1.1" 404 3118
+INFO 2024-03-28 16:32:21,044 basehttp 124 "GET /login HTTP/1.1" 301 0
+INFO 2024-03-28 16:32:21,057 basehttp 124 "GET /login/ HTTP/1.1" 200 3448
+WARNING 2024-03-28 16:32:21,085 base 152 Not Found: /login/.css
+WARNING 2024-03-28 16:32:21,085 basehttp 124 "GET /login/.css HTTP/1.1" 404 3166
+WARNING 2024-03-28 16:32:21,089 base 152 Not Found: /login/s
+WARNING 2024-03-28 16:32:21,093 base 152 Not Found: /login/5.16.js
+WARNING 2024-03-28 16:32:21,096 base 152 Not Found: /login/0.18.0.min.js
+WARNING 2024-03-28 16:32:21,096 basehttp 124 "GET /static/css HTTP/1.1" 404 1629
+WARNING 2024-03-28 16:32:21,096 basehttp 124 "GET /login/5.16.js HTTP/1.1" 404 3175
+WARNING 2024-03-28 16:32:21,096 basehttp 124 "GET /login/s HTTP/1.1" 404 3157
+WARNING 2024-03-28 16:32:21,100 base 152 Not Found: /login/.js
+WARNING 2024-03-28 16:32:21,101 basehttp 124 "GET /login/0.18.0.min.js HTTP/1.1" 404 3193
+WARNING 2024-03-28 16:32:21,105 base 152 Not Found: /login/5.16.js
+WARNING 2024-03-28 16:32:21,106 basehttp 124 "GET /login/.js HTTP/1.1" 404 3163
+WARNING 2024-03-28 16:32:21,106 basehttp 124 "GET /static/js HTTP/1.1" 404 1627
+WARNING 2024-03-28 16:32:21,107 basehttp 124 "GET /login/5.16.js HTTP/1.1" 404 3175
+WARNING 2024-03-28 16:32:21,110 base 152 Not Found: /images/logo02.png
+WARNING 2024-03-28 16:32:21,111 basehttp 124 "GET /images/logo02.png HTTP/1.1" 404 3187
+WARNING 2024-03-28 16:32:21,115 base 152 Not Found: /login/0.18.0.min.js
+WARNING 2024-03-28 16:32:21,115 basehttp 124 "GET /login/0.18.0.min.js HTTP/1.1" 404 3193
+WARNING 2024-03-28 16:32:21,121 base 152 Not Found: /login/.js
+WARNING 2024-03-28 16:32:21,123 base 152 Not Found: /images/logo02.png
+WARNING 2024-03-28 16:32:21,124 basehttp 124 "GET /login/.js HTTP/1.1" 404 3163
+WARNING 2024-03-28 16:32:21,124 basehttp 124 "GET /images/logo02.png HTTP/1.1" 404 3187
+WARNING 2024-03-28 16:32:21,141 basehttp 124 "GET /static/js HTTP/1.1" 404 1627
+INFO 2024-03-28 16:33:35,982 basehttp 124 "GET /login/ HTTP/1.1" 200 3446
+WARNING 2024-03-28 16:33:36,000 base 152 Not Found: /login/.css
+WARNING 2024-03-28 16:33:36,002 basehttp 124 "GET /static/css HTTP/1.1" 404 1629
+WARNING 2024-03-28 16:33:36,004 base 152 Not Found: /login/s
+WARNING 2024-03-28 16:33:36,005 basehttp 124 "GET /login/s HTTP/1.1" 404 3157
+WARNING 2024-03-28 16:33:36,009 base 152 Not Found: /login/5.16.js
+WARNING 2024-03-28 16:33:36,009 basehttp 124 "GET /login/.css HTTP/1.1" 404 3166
+WARNING 2024-03-28 16:33:36,010 basehttp 124 "GET /login/5.16.js HTTP/1.1" 404 3175
+WARNING 2024-03-28 16:33:36,013 base 152 Not Found: /login/0.18.0.min.js
+WARNING 2024-03-28 16:33:36,016 base 152 Not Found: /login/.js
+WARNING 2024-03-28 16:33:36,017 basehttp 124 "GET /login/0.18.0.min.js HTTP/1.1" 404 3193
+WARNING 2024-03-28 16:33:36,019 basehttp 124 "GET /login/.js HTTP/1.1" 404 3163
+WARNING 2024-03-28 16:33:36,020 basehttp 124 "GET /static/js HTTP/1.1" 404 1627
+WARNING 2024-03-28 16:33:36,023 base 152 Not Found: /images/logo.png
+WARNING 2024-03-28 16:33:36,027 basehttp 124 "GET /images/logo.png HTTP/1.1" 404 3181
+WARNING 2024-03-28 16:33:43,593 base 152 Not Found: /
+WARNING 2024-03-28 16:33:43,593 basehttp 124 "GET / HTTP/1.1" 404 3118
+INFO 2024-03-28 16:33:57,460 basehttp 124 "GET /login/ HTTP/1.1" 200 3446
+WARNING 2024-03-28 16:33:57,486 base 152 Not Found: /login/.css
+WARNING 2024-03-28 16:33:57,486 basehttp 124 "GET /login/.css HTTP/1.1" 404 3166
+WARNING 2024-03-28 16:33:57,490 base 152 Not Found: /login/s
+WARNING 2024-03-28 16:33:57,493 base 152 Not Found: /login/5.16.js
+WARNING 2024-03-28 16:33:57,496 base 152 Not Found: /login/0.18.0.min.js
+WARNING 2024-03-28 16:33:57,499 base 152 Not Found: /login/.js
+WARNING 2024-03-28 16:33:57,503 basehttp 124 "GET /static/css HTTP/1.1" 404 1629
+WARNING 2024-03-28 16:33:57,505 basehttp 124 "GET /login/s HTTP/1.1" 404 3157
+WARNING 2024-03-28 16:33:57,505 basehttp 124 "GET /login/5.16.js HTTP/1.1" 404 3175
+WARNING 2024-03-28 16:33:57,505 basehttp 124 "GET /login/0.18.0.min.js HTTP/1.1" 404 3193
+WARNING 2024-03-28 16:33:57,509 basehttp 124 "GET /static/js HTTP/1.1" 404 1627
+WARNING 2024-03-28 16:33:57,513 base 152 Not Found: /images/logo.png
+WARNING 2024-03-28 16:33:57,513 basehttp 124 "GET /login/.js HTTP/1.1" 404 3163
+WARNING 2024-03-28 16:33:57,518 basehttp 124 "GET /images/logo.png HTTP/1.1" 404 3181
+WARNING 2024-03-28 16:33:57,544 basehttp 124 "GET /static/js HTTP/1.1" 404 1627
+WARNING 2024-03-28 16:36:23,517 base 152 Not Found: /
+WARNING 2024-03-28 16:36:23,517 basehttp 124 "GET / HTTP/1.1" 404 3118
+INFO 2024-03-28 16:36:30,366 basehttp 124 "GET /login/ HTTP/1.1" 200 5745
+INFO 2024-03-28 16:36:30,393 basehttp 124 "GET /static/js/login.js HTTP/1.1" 200 1759
+INFO 2024-03-28 16:36:30,394 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 11861
+INFO 2024-03-28 16:36:30,394 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2024-03-28 16:36:30,420 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2024-03-28 16:36:30,421 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+ERROR 2024-03-28 16:36:41,289 exception 135 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.LoginView didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-03-28 16:36:41,315 basehttp 124 "POST /login/ HTTP/1.1" 500 64683
+INFO 2024-03-28 16:36:48,283 basehttp 124 "GET /login/ HTTP/1.1" 200 5745
+INFO 2024-03-28 16:36:52,299 basehttp 124 "GET /login/ HTTP/1.1" 200 5745
+INFO 2024-03-28 16:37:10,374 basehttp 124 "GET /register/ HTTP/1.1" 200 4511
+INFO 2024-03-28 16:37:10,404 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 5431
+INFO 2024-03-28 16:37:10,405 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 11462
+INFO 2024-03-28 16:37:10,435 basehttp 124 "GET /image_codes/19cee029-c898-4d40-a73b-006a3274b4dd/ HTTP/1.1" 200 2977
+INFO 2024-03-28 16:37:13,343 basehttp 124 "GET /login/ HTTP/1.1" 200 5745
+WARNING 2024-03-28 16:38:43,964 base 152 Not Found: /
+WARNING 2024-03-28 16:38:43,964 basehttp 124 "GET / HTTP/1.1" 404 3118
+INFO 2024-03-28 16:38:59,936 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-28 16:39:00,975 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-28 16:39:01,684 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-28 16:39:14,441 basehttp 124 "GET /register/ HTTP/1.1" 200 4511
+INFO 2024-03-28 16:39:14,502 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2024-03-28 16:39:14,545 basehttp 124 "GET /image_codes/37c731af-0aed-4d59-948b-7d9180c7ee0c/ HTTP/1.1" 200 3339
+INFO 2024-03-28 16:39:16,456 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-28 16:39:16,492 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 8192
+INFO 2024-03-28 16:39:16,493 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2024-03-28 16:39:16,518 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+WARNING 2024-03-28 17:01:29,703 base 152 Not Found: /
+WARNING 2024-03-28 17:01:29,703 basehttp 124 "GET / HTTP/1.1" 404 3118
+WARNING 2024-03-28 17:01:40,113 base 152 Not Found: /
+WARNING 2024-03-28 17:01:40,113 basehttp 124 "GET / HTTP/1.1" 404 3118
+INFO 2024-03-28 17:02:09,643 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+WARNING 2024-03-28 17:02:09,649 base 152 Not Found: /
+WARNING 2024-03-28 17:02:09,650 basehttp 124 "GET / HTTP/1.1" 404 3118
+INFO 2024-03-28 17:02:51,267 basehttp 124 "POST /login/ HTTP/1.1" 200 5738
+INFO 2024-03-28 17:02:55,039 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+WARNING 2024-03-28 17:02:55,043 base 152 Not Found: /
+WARNING 2024-03-28 17:02:55,044 basehttp 124 "GET / HTTP/1.1" 404 3118
+INFO 2024-03-28 17:03:00,795 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+WARNING 2024-03-28 17:03:00,801 base 152 Not Found: /
+WARNING 2024-03-28 17:03:00,801 basehttp 124 "GET / HTTP/1.1" 404 3118
+INFO 2024-03-28 17:03:06,414 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-28 17:03:22,082 basehttp 124 "POST /login/ HTTP/1.1" 200 5738
+INFO 2024-03-28 17:03:26,907 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+WARNING 2024-03-28 17:03:26,910 base 152 Not Found: /
+WARNING 2024-03-28 17:03:26,911 basehttp 124 "GET / HTTP/1.1" 404 3118
+INFO 2024-03-28 17:03:33,837 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+WARNING 2024-03-28 17:03:33,844 base 152 Not Found: /
+WARNING 2024-03-28 17:03:33,844 basehttp 124 "GET / HTTP/1.1" 404 3118
+INFO 2024-03-28 17:03:39,427 basehttp 124 "POST /login/ HTTP/1.1" 200 5738
+INFO 2024-03-28 17:03:41,131 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+WARNING 2024-03-28 17:03:41,136 base 152 Not Found: /
+WARNING 2024-03-28 17:03:41,136 basehttp 124 "GET / HTTP/1.1" 404 3118
+INFO 2024-03-28 17:04:07,561 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+WARNING 2024-03-28 17:04:07,567 base 152 Not Found: /
+WARNING 2024-03-28 17:04:07,568 basehttp 124 "GET / HTTP/1.1" 404 3118
+INFO 2024-03-28 17:04:13,904 basehttp 124 "POST /login/ HTTP/1.1" 200 5738
+INFO 2024-03-28 17:04:20,296 basehttp 124 "POST /login/ HTTP/1.1" 200 5738
+INFO 2024-03-28 17:04:35,224 basehttp 124 "POST /login/ HTTP/1.1" 200 5738
+INFO 2024-03-28 17:04:35,243 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2024-03-28 17:04:35,245 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2024-03-28 17:04:35,245 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2024-03-28 17:04:35,248 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2024-03-28 17:04:35,248 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2024-03-28 17:04:35,250 basehttp 124 "GET /static/js/login.js HTTP/1.1" 200 1759
+INFO 2024-03-28 17:04:35,250 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2024-03-28 17:04:35,252 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 11861
+INFO 2024-03-28 17:04:35,291 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2024-03-28 17:04:35,294 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2024-03-28 17:04:35,294 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+WARNING 2024-03-28 17:04:35,301 base 152 Not Found: /favicon.ico
+WARNING 2024-03-28 17:04:35,302 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3169
+INFO 2024-03-28 17:04:41,416 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+WARNING 2024-03-28 17:04:41,422 base 152 Not Found: /
+WARNING 2024-03-28 17:04:41,422 basehttp 124 "GET / HTTP/1.1" 404 3118
+INFO 2024-03-28 17:04:55,351 basehttp 124 "POST /login/ HTTP/1.1" 200 5738
+INFO 2024-03-28 17:04:55,366 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2024-03-28 17:04:55,369 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2024-03-28 17:04:55,370 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2024-03-28 17:04:55,374 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2024-03-28 17:04:55,377 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2024-03-28 17:04:55,381 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2024-03-28 17:04:55,381 basehttp 124 "GET /static/js/login.js HTTP/1.1" 200 1759
+INFO 2024-03-28 17:04:55,384 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 11861
+INFO 2024-03-28 17:04:55,407 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2024-03-28 17:04:55,409 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2024-03-28 17:04:55,409 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+WARNING 2024-03-28 17:04:55,421 base 152 Not Found: /favicon.ico
+WARNING 2024-03-28 17:04:55,421 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3169
+INFO 2024-03-28 17:07:18,898 basehttp 124 "POST /login/ HTTP/1.1" 200 5738
+INFO 2024-03-28 17:07:30,839 basehttp 124 "POST /login/ HTTP/1.1" 200 5738
+INFO 2024-03-28 17:20:34,343 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 17:20:34,378 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2024-03-28 17:20:34,379 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 5431
+INFO 2024-03-28 17:20:34,381 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2024-03-28 17:20:34,383 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2024-03-28 17:20:34,385 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2024-03-28 17:20:34,386 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2024-03-28 17:20:34,387 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2024-03-28 17:20:34,390 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2024-03-28 17:20:34,396 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2024-03-28 17:20:34,396 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2024-03-28 17:20:34,401 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2024-03-28 17:20:34,403 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1876
+INFO 2024-03-28 17:20:34,410 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2024-03-28 17:20:34,413 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2024-03-28 17:20:34,414 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2024-03-28 17:20:34,417 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2024-03-28 17:20:34,418 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2024-03-28 17:20:34,419 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2024-03-28 17:20:34,420 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2024-03-28 17:20:34,482 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2024-03-28 17:21:00,206 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-28 17:21:04,248 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-03-28 17:21:04,251 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 17:21:21,276 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-28 17:21:28,798 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-03-28 17:21:28,801 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 17:21:31,537 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-28 17:21:56,278 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-03-28 17:21:56,281 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 17:22:20,977 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-28 17:22:56,859 basehttp 124 "POST /login/ HTTP/1.1" 200 5738
+WARNING 2024-03-28 17:23:08,295 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2024-03-28 17:28:20,662 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 17:28:29,185 basehttp 124 "GET /login/ HTTP/1.1" 200 5679
+INFO 2024-03-28 17:28:29,218 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2024-03-28 17:28:29,220 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2024-03-28 17:28:29,221 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2024-03-28 17:28:29,225 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2024-03-28 17:28:29,228 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2024-03-28 17:28:29,230 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2024-03-28 17:28:29,230 basehttp 124 "GET /static/js/login.js HTTP/1.1" 200 1759
+INFO 2024-03-28 17:28:29,231 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 11861
+INFO 2024-03-28 17:28:29,268 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2024-03-28 17:28:29,269 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2024-03-28 17:28:29,269 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+WARNING 2024-03-28 17:28:29,285 base 152 Not Found: /favicon.ico
+WARNING 2024-03-28 17:28:29,286 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3333
+INFO 2024-03-28 17:28:37,082 basehttp 124 "POST /login/ HTTP/1.1" 200 5836
+INFO 2024-03-28 17:28:44,612 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-03-28 17:28:44,616 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 17:28:44,654 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2024-03-28 17:28:44,657 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 5431
+INFO 2024-03-28 17:28:44,658 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2024-03-28 17:28:44,658 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2024-03-28 17:28:44,659 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2024-03-28 17:28:44,664 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2024-03-28 17:28:44,665 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2024-03-28 17:28:44,666 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2024-03-28 17:28:44,668 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2024-03-28 17:28:44,681 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2024-03-28 17:28:44,685 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2024-03-28 17:28:44,686 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1876
+INFO 2024-03-28 17:28:44,689 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2024-03-28 17:28:44,690 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2024-03-28 17:28:44,694 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2024-03-28 17:28:44,696 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2024-03-28 17:28:44,697 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2024-03-28 17:28:44,698 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2024-03-28 17:28:44,699 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2024-03-28 17:28:44,735 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2024-03-28 17:30:03,882 basehttp 124 "POST /login/ HTTP/1.1" 200 5836
+WARNING 2024-03-28 17:30:04,096 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2024-03-28 17:36:46,344 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 17:36:48,429 basehttp 124 "GET /login/ HTTP/1.1" 200 5679
+INFO 2024-03-28 17:37:01,632 basehttp 124 "GET /login/ HTTP/1.1" 200 5679
+INFO 2024-03-28 17:37:01,651 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2024-03-28 17:37:01,652 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2024-03-28 17:37:01,654 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2024-03-28 17:37:01,656 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2024-03-28 17:37:01,659 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2024-03-28 17:37:01,662 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2024-03-28 17:37:01,663 basehttp 124 "GET /static/js/login.js HTTP/1.1" 200 1759
+INFO 2024-03-28 17:37:01,664 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 11861
+INFO 2024-03-28 17:37:01,699 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2024-03-28 17:37:01,703 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2024-03-28 17:37:01,704 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+WARNING 2024-03-28 17:37:01,713 base 152 Not Found: /favicon.ico
+WARNING 2024-03-28 17:37:01,714 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3333
+INFO 2024-03-28 17:38:23,586 basehttp 124 "POST /login/ HTTP/1.1" 200 5836
+INFO 2024-03-28 17:38:23,629 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2024-03-28 17:39:54,294 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 17:39:54,338 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2024-03-28 17:39:54,341 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2024-03-28 17:39:54,345 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 5431
+INFO 2024-03-28 17:39:54,346 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2024-03-28 17:39:54,352 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2024-03-28 17:39:54,352 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2024-03-28 17:39:54,353 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2024-03-28 17:39:54,354 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2024-03-28 17:39:54,355 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2024-03-28 17:39:54,356 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2024-03-28 17:39:54,356 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2024-03-28 17:39:54,364 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2024-03-28 17:39:54,364 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2024-03-28 17:39:54,365 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2024-03-28 17:39:54,366 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1876
+INFO 2024-03-28 17:39:54,366 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2024-03-28 17:39:54,367 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2024-03-28 17:39:54,371 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2024-03-28 17:39:54,372 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2024-03-28 17:39:54,373 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2024-03-28 17:39:54,426 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2024-03-28 17:39:56,581 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-28 17:40:09,653 basehttp 124 "POST /login/ HTTP/1.1" 200 5738
+INFO 2024-03-28 17:40:09,688 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2024-03-28 17:40:28,821 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2024-03-28 18:51:45,743 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 18:51:45,831 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,832 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,835 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,835 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,837 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,838 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,839 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,840 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,842 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,843 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,843 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,846 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,846 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,849 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,849 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,850 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,852 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,855 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,856 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,857 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,861 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,863 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,863 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,864 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,865 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:45,894 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:52,167 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-28 18:51:52,201 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:52,202 basehttp 124 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:52,232 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:52,233 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 304 0
+INFO 2024-03-28 18:51:52,236 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 304 0
+INFO 2024-03-28 18:52:22,703 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-28 18:52:29,671 basehttp 124 "POST /login/ HTTP/1.1" 200 5738
+INFO 2024-03-28 18:52:35,308 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-03-28 18:52:35,311 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 18:52:38,229 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-28 18:52:41,747 basehttp 124 "POST /login/ HTTP/1.1" 200 5738
+INFO 2024-03-28 18:52:59,901 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-03-28 18:52:59,904 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 18:53:05,547 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-28 18:53:25,173 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-03-28 18:53:25,178 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 18:53:29,344 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-28 18:53:40,197 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-03-28 18:53:40,203 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 19:14:06,983 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 19:14:07,056 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2024-03-28 19:14:08,920 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-28 19:14:13,145 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-03-28 19:14:13,153 basehttp 124 "GET / HTTP/1.1" 200 25133
+WARNING 2024-03-28 19:14:19,446 base 152 Not Found: /logout/
+WARNING 2024-03-28 19:14:19,447 basehttp 124 "GET /logout/ HTTP/1.1" 404 3321
+WARNING 2024-03-28 19:14:41,984 base 152 Not Found: /info/
+WARNING 2024-03-28 19:14:41,985 basehttp 124 "GET /info/ HTTP/1.1" 404 3315
+WARNING 2024-03-28 19:14:47,019 base 152 Not Found: /logout/
+WARNING 2024-03-28 19:14:47,020 basehttp 124 "GET /logout/ HTTP/1.1" 404 3321
+INFO 2024-03-28 19:14:59,584 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-03-28 19:14:59,588 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 19:20:47,995 basehttp 124 "GET / HTTP/1.1" 200 25133
+WARNING 2024-03-28 19:20:50,788 base 152 Not Found: /logout/
+WARNING 2024-03-28 19:20:50,789 basehttp 124 "GET /logout/ HTTP/1.1" 404 3321
+INFO 2024-03-28 19:21:04,360 basehttp 124 "GET / HTTP/1.1" 200 25133
+WARNING 2024-03-28 19:21:06,488 base 152 Not Found: /logout/
+WARNING 2024-03-28 19:21:06,489 basehttp 124 "GET /logout/ HTTP/1.1" 404 3321
+INFO 2024-03-28 19:22:15,008 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 19:22:17,578 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2024-03-28 19:22:17,582 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 19:22:34,711 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 19:22:36,968 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-28 19:22:41,469 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-03-28 19:22:41,473 basehttp 124 "GET / HTTP/1.1" 200 25133
+ERROR 2024-03-28 19:22:43,667 exception 135 Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/urls/base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'content'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/shoppingmall/shoppingmall/apps/users/views.py", line 142, in get
+    response = redirect(reverse('content:index'))
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/urls/base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'content' is not a registered namespace
+ERROR 2024-03-28 19:22:43,689 basehttp 124 "GET /logout/ HTTP/1.1" 500 95206
+INFO 2024-03-28 19:22:53,036 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 19:22:54,916 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2024-03-28 19:22:54,920 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 19:23:04,246 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-28 19:23:08,778 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-03-28 19:23:08,783 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 19:23:13,444 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2024-03-28 19:23:13,449 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 19:25:32,227 basehttp 124 "GET /register/ HTTP/1.1" 200 4511
+INFO 2024-03-28 19:25:32,293 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2024-03-28 19:25:32,295 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 11462
+INFO 2024-03-28 19:25:32,295 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2024-03-28 19:25:32,330 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2024-03-28 19:25:32,333 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2024-03-28 19:25:32,335 basehttp 124 "GET /image_codes/de459e0f-fe8e-44e5-9623-e817a87adb4a/ HTTP/1.1" 200 2969
+INFO 2024-03-28 19:25:46,434 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:25:50,913 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:26:06,627 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:27:41,442 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 19:27:41,492 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2024-03-28 19:27:41,493 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2024-03-28 19:27:49,342 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-28 19:27:59,846 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:28:08,313 basehttp 124 "GET /register/ HTTP/1.1" 200 4511
+INFO 2024-03-28 19:28:08,397 basehttp 124 "GET /image_codes/24725999-6870-4a6b-b585-df4382bb6c17/ HTTP/1.1" 200 3520
+INFO 2024-03-28 19:28:13,809 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:31:32,122 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:31:43,097 basehttp 124 "GET /usernames/1111222/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:31:51,834 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:32:08,530 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:32:13,490 basehttp 124 "GET /sms_codes/13699109260/?image_code=7HNV&uuid=24725999-6870-4a6b-b585-df4382bb6c17 HTTP/1.1" 200 66
+INFO 2024-03-28 19:32:13,493 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:32:13,501 basehttp 124 "GET /image_codes/8d7a8f2c-8a00-4c0d-8d94-f13d7a97ad11/ HTTP/1.1" 200 3225
+INFO 2024-03-28 19:35:07,379 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 19:35:10,293 basehttp 124 "GET /register/ HTTP/1.1" 200 4511
+INFO 2024-03-28 19:35:10,348 basehttp 124 "GET /image_codes/53a800c3-8924-4623-901b-40d500ea66ad/ HTTP/1.1" 200 3506
+INFO 2024-03-28 19:35:20,711 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:35:33,953 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:35:38,731 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:35:38,734 basehttp 124 "GET /sms_codes/13699109260/?image_code=3SRS&uuid=53a800c3-8924-4623-901b-40d500ea66ad HTTP/1.1" 200 66
+INFO 2024-03-28 19:35:38,742 basehttp 124 "GET /image_codes/d79d91bc-601a-49e4-986c-d83b84f0853b/ HTTP/1.1" 200 2551
+INFO 2024-03-28 19:37:19,147 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 19:37:19,191 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2024-03-28 19:37:29,445 basehttp 124 "GET /register/ HTTP/1.1" 200 4511
+INFO 2024-03-28 19:37:29,504 basehttp 124 "GET /image_codes/def95bf0-59be-476e-bda5-5889daf57b4d/ HTTP/1.1" 200 3170
+INFO 2024-03-28 19:37:36,315 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:37:52,175 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:37:59,808 basehttp 124 "GET /sms_codes/13699109260/?image_code=OVNS&uuid=def95bf0-59be-476e-bda5-5889daf57b4d HTTP/1.1" 200 66
+INFO 2024-03-28 19:37:59,810 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:37:59,819 basehttp 124 "GET /image_codes/00c18b24-c647-4581-a2fa-8672e652a59a/ HTTP/1.1" 200 3379
+INFO 2024-03-28 19:38:51,518 basehttp 124 "GET /register/ HTTP/1.1" 200 4511
+INFO 2024-03-28 19:38:51,587 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2024-03-28 19:38:51,628 basehttp 124 "GET /image_codes/19aeab72-0247-4eb6-a1f7-76388e4c7bd6/ HTTP/1.1" 200 3144
+INFO 2024-03-28 19:38:59,032 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:39:12,821 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:39:13,045 basehttp 124 "GET /image_codes/d4a9edea-f67b-4b2a-8e0a-fd079c0d58cc/ HTTP/1.1" 200 3359
+INFO 2024-03-28 19:39:18,012 basehttp 124 "GET /sms_codes/13699109260/?image_code=TNHH&uuid=d4a9edea-f67b-4b2a-8e0a-fd079c0d58cc HTTP/1.1" 200 66
+INFO 2024-03-28 19:39:18,015 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:39:18,021 basehttp 124 "GET /image_codes/fc93f4b7-4d51-4901-8ce7-8d019a7620d7/ HTTP/1.1" 200 3375
+INFO 2024-03-28 19:39:47,012 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 19:39:47,015 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 19:39:47,278 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2024-03-28 19:39:47,280 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 8192
+INFO 2024-03-28 19:39:47,281 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 124
+INFO 2024-03-28 19:39:47,282 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 5431
+INFO 2024-03-28 19:39:47,282 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2024-03-28 19:39:47,284 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2024-03-28 19:39:47,285 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 200 8192
+INFO 2024-03-28 19:39:47,286 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 200 8192
+INFO 2024-03-28 19:39:47,288 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 200 8192
+INFO 2024-03-28 19:39:47,292 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 200 8192
+INFO 2024-03-28 19:39:47,295 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 200 8192
+INFO 2024-03-28 19:39:47,295 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 200 8192
+INFO 2024-03-28 19:39:47,297 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8192
+INFO 2024-03-28 19:39:47,299 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2024-03-28 19:39:47,300 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 200 8192
+INFO 2024-03-28 19:39:47,303 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 200 8192
+INFO 2024-03-28 19:39:47,304 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2024-03-28 19:39:47,305 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8192
+INFO 2024-03-28 19:39:47,308 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2024-03-28 19:39:47,310 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+WARNING 2024-03-28 19:39:47,612 base 152 Not Found: /favicon.ico
+WARNING 2024-03-28 19:39:47,613 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3505
+INFO 2024-03-28 19:39:49,797 basehttp 124 "GET /register/ HTTP/1.1" 200 4511
+INFO 2024-03-28 19:39:49,855 basehttp 124 "GET /image_codes/b1e3ab35-7753-49b0-99ff-de40ced31328/ HTTP/1.1" 200 3233
+INFO 2024-03-28 19:39:56,595 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:40:01,098 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:40:10,040 basehttp 124 "GET /sms_codes/13699109260/?image_code=OB8T&uuid=b1e3ab35-7753-49b0-99ff-de40ced31328 HTTP/1.1" 200 66
+INFO 2024-03-28 19:40:10,043 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:40:10,050 basehttp 124 "GET /image_codes/ec8ce03d-5ffa-4dce-acc3-1c15c386848d/ HTTP/1.1" 200 3263
+INFO 2024-03-28 19:41:56,544 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 19:41:56,740 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2024-03-28 19:41:56,742 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 5431
+INFO 2024-03-28 19:41:56,743 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2024-03-28 19:41:56,745 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 200 8192
+INFO 2024-03-28 19:41:56,747 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 200 8192
+INFO 2024-03-28 19:41:56,748 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8192
+INFO 2024-03-28 19:42:00,742 basehttp 124 "GET /register/ HTTP/1.1" 200 4511
+INFO 2024-03-28 19:42:00,807 basehttp 124 "GET /image_codes/c5ae5d8a-51b7-4037-8f70-bd630f2cc0e1/ HTTP/1.1" 200 2788
+INFO 2024-03-28 19:42:05,090 basehttp 124 "GET /usernames/wywywywy/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:42:15,017 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:42:29,619 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:42:35,127 basehttp 124 "GET /sms_codes/13699109260/?image_code=HJAP&uuid=c5ae5d8a-51b7-4037-8f70-bd630f2cc0e1 HTTP/1.1" 200 66
+INFO 2024-03-28 19:42:35,129 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:42:35,136 basehttp 124 "GET /image_codes/503dbffd-565d-4365-8108-b9a2c01444e0/ HTTP/1.1" 200 2926
+INFO 2024-03-28 19:44:50,263 basehttp 124 "GET /register/ HTTP/1.1" 200 4511
+INFO 2024-03-28 19:44:50,298 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2024-03-28 19:44:50,302 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2024-03-28 19:44:50,310 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2024-03-28 19:44:50,310 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2024-03-28 19:44:50,319 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2024-03-28 19:44:50,320 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 5431
+INFO 2024-03-28 19:44:50,320 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 9786
+INFO 2024-03-28 19:44:50,348 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2024-03-28 19:44:50,350 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2024-03-28 19:44:50,352 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2024-03-28 19:44:50,355 basehttp 124 "GET /image_codes/3419322a-ebea-408d-86e9-a7458d791c4c/ HTTP/1.1" 200 3353
+WARNING 2024-03-28 19:44:50,362 base 152 Not Found: /favicon.ico
+WARNING 2024-03-28 19:44:50,363 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3505
+INFO 2024-03-28 19:45:12,138 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:45:25,052 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:45:26,186 basehttp 124 "GET /image_codes/4a406449-eee5-4448-a298-6cff8bb5193d/ HTTP/1.1" 200 3110
+INFO 2024-03-28 19:45:32,814 basehttp 124 "GET /sms_codes/13699109260/?image_code=4bab&image_code_id=4a406449-eee5-4448-a298-6cff8bb5193d HTTP/1.1" 200 66
+INFO 2024-03-28 19:45:32,814 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:45:32,822 basehttp 124 "GET /image_codes/b8b6041a-b915-4c9d-86e1-81b443a48151/ HTTP/1.1" 200 3237
+INFO 2024-03-28 19:45:39,890 basehttp 124 "GET /sms_codes/13699109260/?image_code=4bab&image_code_id=b8b6041a-b915-4c9d-86e1-81b443a48151 HTTP/1.1" 200 72
+INFO 2024-03-28 19:45:39,892 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:45:39,899 basehttp 124 "GET /image_codes/2ae14384-32db-4653-aaf7-3ba44469b479/ HTTP/1.1" 200 2948
+INFO 2024-03-28 19:45:51,264 basehttp 124 "GET /sms_codes/13699109260/?image_code=EJNG&image_code_id=2ae14384-32db-4653-aaf7-3ba44469b479 HTTP/1.1" 200 72
+INFO 2024-03-28 19:45:51,268 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:45:51,272 basehttp 124 "GET /image_codes/3478e259-6859-49f9-8854-2bfdfb13d1d2/ HTTP/1.1" 200 3379
+INFO 2024-03-28 19:45:54,551 basehttp 124 "GET /image_codes/d922038c-0dcf-4344-85fe-5c3554f32c47/ HTTP/1.1" 200 3777
+INFO 2024-03-28 19:46:02,094 basehttp 124 "GET /sms_codes/13699109260/?image_code=6GMR&image_code_id=d922038c-0dcf-4344-85fe-5c3554f32c47 HTTP/1.1" 200 66
+INFO 2024-03-28 19:46:02,096 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 19:46:02,107 basehttp 124 "GET /image_codes/14dd51de-d783-48fe-8988-065c08776fc6/ HTTP/1.1" 200 3468
+INFO 2024-03-28 20:25:58,887 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 20:25:58,949 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2024-03-28 20:25:58,950 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2024-03-28 20:25:58,952 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2024-03-28 20:25:58,955 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 200 79748
+INFO 2024-03-28 20:25:58,955 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 200 194827
+INFO 2024-03-28 20:25:58,957 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 200 288974
+INFO 2024-03-28 20:25:58,961 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2024-03-28 20:25:58,961 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 200 95019
+INFO 2024-03-28 20:25:58,967 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2024-03-28 20:25:58,969 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2024-03-28 20:25:58,969 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 200 15775
+INFO 2024-03-28 20:25:58,972 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2024-03-28 20:25:58,973 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2024-03-28 20:25:58,975 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2024-03-28 20:25:58,976 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2024-03-28 20:25:58,982 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2024-03-28 20:25:58,983 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2024-03-28 20:25:58,986 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1832
+INFO 2024-03-28 20:25:58,989 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2024-03-28 20:25:58,991 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2024-03-28 20:25:59,056 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2024-03-28 20:25:59,080 base 152 Not Found: /favicon.ico
+WARNING 2024-03-28 20:25:59,080 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3505
+INFO 2024-03-28 20:26:01,628 basehttp 124 "GET /register/ HTTP/1.1" 200 4511
+INFO 2024-03-28 20:26:01,659 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2024-03-28 20:26:01,706 basehttp 124 "GET /image_codes/60ff3df2-d78f-4db3-8c85-34f17fd36f2b/ HTTP/1.1" 200 3107
+INFO 2024-03-28 20:26:07,742 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 20:26:19,572 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 20:26:27,672 basehttp 124 "GET /sms_codes/13699109260/?image_code=EI7R&image_code_id=60ff3df2-d78f-4db3-8c85-34f17fd36f2b HTTP/1.1" 200 72
+INFO 2024-03-28 20:26:27,675 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 20:26:27,683 basehttp 124 "GET /image_codes/8d807c57-2350-4397-93b2-94187a36bb61/ HTTP/1.1" 200 3380
+INFO 2024-03-28 20:26:36,374 Sms 26 7902
+INFO 2024-03-28 20:26:36,381 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 20:26:36,706 basehttp 124 "GET /sms_codes/13699109260/?image_code=JMUT&image_code_id=8d807c57-2350-4397-93b2-94187a36bb61 HTTP/1.1" 200 29
+ERROR 2024-03-28 20:26:49,809 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 143, in login
+    backend = backend or user.backend
+AttributeError: 'User' object has no attribute 'backend'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/shoppingmall/shoppingmall/apps/users/views.py", line 61, in post
+    login(request, user)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 150, in login
+    'You have multiple authentication backends configured and '
+ValueError: You have multiple authentication backends configured and therefore must provide the `backend` argument or set the `backend` attribute on the user.
+ERROR 2024-03-28 20:26:49,836 basehttp 124 "POST /register/ HTTP/1.1" 500 95681
+INFO 2024-03-28 20:28:44,920 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 20:28:47,463 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-28 20:28:47,499 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 11861
+INFO 2024-03-28 20:28:47,501 basehttp 124 "GET /static/js/login.js HTTP/1.1" 200 1759
+INFO 2024-03-28 20:28:47,526 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 200 35759
+INFO 2024-03-28 20:28:47,528 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2024-03-28 20:29:02,260 basehttp 124 "GET /register/ HTTP/1.1" 200 4511
+INFO 2024-03-28 20:29:02,325 basehttp 124 "GET /image_codes/1de4457d-3385-4d7e-b1f0-feb22f156a00/ HTTP/1.1" 200 3060
+INFO 2024-03-28 20:29:09,268 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 20:29:25,562 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 20:30:37,349 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 20:30:50,627 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 20:30:57,518 Sms 26 0445
+INFO 2024-03-28 20:30:57,522 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 20:30:57,860 basehttp 124 "GET /sms_codes/13699109260/?image_code=ZVXY&image_code_id=1de4457d-3385-4d7e-b1f0-feb22f156a00 HTTP/1.1" 200 29
+INFO 2024-03-28 20:31:14,515 basehttp 124 "POST /register/ HTTP/1.1" 302 0
+INFO 2024-03-28 20:31:14,520 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 20:31:14,553 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2024-03-28 20:33:55,358 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2024-03-28 20:33:55,371 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 20:33:57,504 basehttp 124 "GET /register/ HTTP/1.1" 200 4511
+INFO 2024-03-28 20:33:57,533 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2024-03-28 20:33:57,568 basehttp 124 "GET /image_codes/a67b124a-3d3a-4144-a6d8-350abc4b3c8a/ HTTP/1.1" 200 3271
+INFO 2024-03-28 20:34:11,811 basehttp 124 "GET /usernames/wywywywy/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 20:34:20,504 basehttp 124 "GET /usernames/wangyuta0/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 20:34:44,924 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 20:34:52,650 Sms 26 4783
+INFO 2024-03-28 20:34:52,655 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 20:34:52,997 basehttp 124 "GET /sms_codes/13699109260/?image_code=S7CO&image_code_id=a67b124a-3d3a-4144-a6d8-350abc4b3c8a HTTP/1.1" 200 29
+ERROR 2024-03-28 20:35:11,588 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 143, in login
+    backend = backend or user.backend
+AttributeError: 'User' object has no attribute 'backend'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/shoppingmall/shoppingmall/apps/users/views.py", line 61, in post
+    login(request, user)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 150, in login
+    'You have multiple authentication backends configured and '
+ValueError: You have multiple authentication backends configured and therefore must provide the `backend` argument or set the `backend` attribute on the user.
+ERROR 2024-03-28 20:35:11,615 basehttp 124 "POST /register/ HTTP/1.1" 500 95681
+INFO 2024-03-28 20:41:43,129 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 20:41:43,162 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2024-03-28 20:41:45,477 basehttp 124 "GET /register/ HTTP/1.1" 200 4511
+INFO 2024-03-28 20:41:45,508 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2024-03-28 20:41:45,538 basehttp 124 "GET /image_codes/cadb433a-533c-4626-bf29-4ca1ddeef986/ HTTP/1.1" 200 3548
+INFO 2024-03-28 20:42:08,564 basehttp 124 "GET /usernames/wangyutao/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 20:42:24,377 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 20:42:28,981 Sms 26 6012
+INFO 2024-03-28 20:42:28,986 basehttp 124 "GET /mobiles/13699109260/count/ HTTP/1.1" 200 41
+INFO 2024-03-28 20:42:29,248 basehttp 124 "GET /sms_codes/13699109260/?image_code=RTXE&image_code_id=cadb433a-533c-4626-bf29-4ca1ddeef986 HTTP/1.1" 200 29
+INFO 2024-03-28 20:42:43,574 basehttp 124 "POST /register/ HTTP/1.1" 302 0
+INFO 2024-03-28 20:42:43,592 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 21:08:47,117 basehttp 124 "GET /info/ HTTP/1.1" 200 7919
+INFO 2024-03-28 21:08:47,162 basehttp 124 "GET /static/images/goods/goods006.jpg HTTP/1.1" 200 6836
+INFO 2024-03-28 21:08:47,163 basehttp 124 "GET /static/images/goods/goods007.jpg HTTP/1.1" 200 3936
+INFO 2024-03-28 21:08:47,165 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2024-03-28 21:08:47,165 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 200 3200
+WARNING 2024-03-28 21:08:47,204 base 152 Not Found: /browse_histories/
+WARNING 2024-03-28 21:08:47,207 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3691
+INFO 2024-03-28 21:08:47,207 basehttp 124 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2024-03-28 21:08:47,208 basehttp 124 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+INFO 2024-03-28 21:08:53,974 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2024-03-28 21:08:53,982 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 21:08:55,147 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+INFO 2024-03-28 21:08:55,155 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-28 21:09:01,875 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-03-28 21:09:01,879 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 21:09:06,369 basehttp 124 "GET /info/ HTTP/1.1" 200 7919
+WARNING 2024-03-28 21:09:06,426 base 152 Not Found: /browse_histories/
+WARNING 2024-03-28 21:09:06,426 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3691
+WARNING 2024-03-28 21:09:20,172 base 152 Not Found: /templates/user_center_info.html
+WARNING 2024-03-28 21:09:20,173 basehttp 124 "GET /templates/user_center_info.html HTTP/1.1" 404 3733
+INFO 2024-03-28 21:11:48,722 basehttp 124 "GET /register/ HTTP/1.1" 200 4511
+INFO 2024-03-28 21:11:48,782 basehttp 124 "GET /image_codes/12a8d332-0c64-4163-9144-57c58587e504/ HTTP/1.1" 200 3262
+INFO 2024-03-28 21:11:53,148 basehttp 124 "GET /image_codes/9781ce9e-69aa-4b37-8b3a-26a3eb0f76ad/ HTTP/1.1" 200 3270
+INFO 2024-03-28 21:11:55,895 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-28 21:11:59,647 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-03-28 21:11:59,651 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-28 21:12:03,337 basehttp 124 "GET /info/ HTTP/1.1" 200 7919
+WARNING 2024-03-28 21:12:03,394 base 152 Not Found: /browse_histories/
+WARNING 2024-03-28 21:12:03,395 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3691
+INFO 2024-03-29 06:51:54,616 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-29 06:51:54,654 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,658 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,661 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,662 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,663 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,664 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,665 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,666 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,666 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,667 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,668 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,669 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,670 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,671 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,672 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,674 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,675 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,676 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,677 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,679 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,679 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,681 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,681 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,682 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,683 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+INFO 2024-03-29 06:51:54,728 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+INFO 2024-03-29 06:52:05,855 basehttp 124 "GET /info/ HTTP/1.1" 200 7919
+INFO 2024-03-29 06:52:05,885 basehttp 124 "GET /static/images/goods/goods006.jpg HTTP/1.1" 304 0
+INFO 2024-03-29 06:52:05,886 basehttp 124 "GET /static/images/goods/goods007.jpg HTTP/1.1" 304 0
+INFO 2024-03-29 06:52:05,886 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+WARNING 2024-03-29 06:52:05,918 base 152 Not Found: /browse_histories/
+INFO 2024-03-29 06:52:05,920 basehttp 124 "GET /static/images/left_bg.jpg HTTP/1.1" 304 0
+WARNING 2024-03-29 06:52:05,921 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3691
+INFO 2024-03-29 06:52:05,921 basehttp 124 "GET /static/images/shop_cart.png HTTP/1.1" 304 0
+INFO 2024-03-29 06:52:08,802 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2024-03-29 06:52:08,805 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-29 06:52:10,070 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+WARNING 2024-03-29 06:52:10,078 base 152 Not Found: /accounts/login/
+WARNING 2024-03-29 06:52:10,078 basehttp 124 "GET /accounts/login/?next=/info/ HTTP/1.1" 404 3697
+INFO 2024-03-29 06:53:59,680 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-29 06:54:01,683 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+INFO 2024-03-29 06:54:01,690 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 5589
+INFO 2024-03-29 06:54:01,724 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2024-03-29 06:54:01,725 basehttp 124 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2024-03-29 06:54:01,752 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 304 0
+INFO 2024-03-29 06:54:01,753 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 304 0
+INFO 2024-03-29 06:54:01,753 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 304 0
+INFO 2024-03-29 06:54:10,433 basehttp 124 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2024-03-29 06:54:10,437 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-29 07:15:41,673 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-29 07:15:44,409 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2024-03-29 07:15:44,418 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-29 07:15:45,472 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+INFO 2024-03-29 07:15:45,477 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 5589
+INFO 2024-03-29 07:17:42,056 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-29 07:17:44,614 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+INFO 2024-03-29 07:17:44,619 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 5589
+INFO 2024-03-29 07:17:49,469 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-29 07:17:53,601 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-03-29 07:17:53,609 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-29 07:17:55,892 basehttp 124 "GET /info/ HTTP/1.1" 200 7919
+WARNING 2024-03-29 07:17:55,948 base 152 Not Found: /browse_histories/
+WARNING 2024-03-29 07:17:55,948 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3691
+INFO 2024-03-29 07:21:44,636 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-29 07:21:48,663 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2024-03-29 07:21:48,668 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-29 07:21:50,235 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+INFO 2024-03-29 07:21:50,242 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 5589
+INFO 2024-03-29 07:21:53,914 basehttp 124 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2024-03-29 07:21:53,925 basehttp 124 "GET /info/ HTTP/1.1" 200 7919
+WARNING 2024-03-29 07:21:53,976 base 152 Not Found: /browse_histories/
+WARNING 2024-03-29 07:21:53,977 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3691
+INFO 2024-03-29 07:22:04,979 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2024-03-29 07:22:04,984 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-29 07:22:06,705 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-29 07:22:12,051 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-03-29 07:22:12,054 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-29 07:22:51,871 basehttp 124 "GET / HTTP/1.1" 200 25133
+ERROR 2024-03-29 07:23:07,420 exception 135 Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/urls/base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'contents'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/shoppingmall/shoppingmall/apps/users/views.py", line 146, in get
+    response = redirect(reverse('contents:index'))
+  File "/home/wyt/CSCI3100/pythonProject/Modern_Gent_Trendsetter/venv/lib/python3.6/site-packages/django/urls/base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'contents' is not a registered namespace
+ERROR 2024-03-29 07:23:07,442 basehttp 124 "GET /logout/ HTTP/1.1" 500 95725
+INFO 2024-03-29 07:24:29,790 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2024-03-29 07:24:29,803 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-29 07:24:33,537 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-29 07:24:36,520 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-03-29 07:24:36,524 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-29 07:24:38,844 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2024-03-29 07:24:38,849 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-29 07:24:41,208 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+INFO 2024-03-29 07:24:41,210 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 5589
+INFO 2024-03-29 07:24:48,851 basehttp 124 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2024-03-29 07:24:48,863 basehttp 124 "GET /info/ HTTP/1.1" 200 7918
+WARNING 2024-03-29 07:24:48,914 base 152 Not Found: /browse_histories/
+WARNING 2024-03-29 07:24:48,914 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3691
+INFO 2024-03-29 07:25:53,790 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2024-03-29 07:25:53,806 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-29 08:42:58,254 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-29 08:42:58,302 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2024-03-29 08:43:01,103 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-29 08:43:04,885 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-03-29 08:43:04,891 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-29 08:43:06,643 basehttp 124 "GET /info/ HTTP/1.1" 200 7889
+WARNING 2024-03-29 08:43:06,708 base 152 Not Found: /browse_histories/
+WARNING 2024-03-29 08:43:06,709 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 3691
+INFO 2024-03-29 08:45:19,761 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2024-03-29 08:45:19,766 basehttp 124 "GET / HTTP/1.1" 200 25133
+INFO 2024-03-29 08:45:28,646 basehttp 124 "GET /login/ HTTP/1.1" 200 5589
+INFO 2024-03-29 08:45:32,960 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-03-29 08:45:32,964 basehttp 124 "GET / HTTP/1.1" 200 25133

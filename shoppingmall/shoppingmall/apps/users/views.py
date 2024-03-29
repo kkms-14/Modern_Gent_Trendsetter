@@ -1,12 +1,15 @@
 import re
 
 from django import http
-from django.contrib.auth import login
+from django.contrib.auth import login, authenticate, logout
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.db import DatabaseError
 from django.shortcuts import render, redirect
 
 # Create your views here.
-from django.http import HttpResponse, HttpRequest, JsonResponse
+from django.http import HttpResponse, HttpRequest, JsonResponse, HttpResponseForbidden
+from django.urls import reverse
 from django.views import View
 from django_redis import get_redis_connection
 
@@ -57,9 +60,11 @@ class RegisterView(View):
         except DatabaseError as e:
             return render(request, 'register.html', {'register_errmsg': "服务器错误"})
 
-        login(request, user)
+        login(request, user, backend='django.contrib.auth.backends.ModelBackend')
+        response = redirect('/')
+        response.set_cookie('username', user.username, max_age=60 * 60 * 24 * 14)
 
-        return redirect('/')
+        return response
 
 
 class UsernameCountView(View):
@@ -99,3 +104,56 @@ class MobileCountView(View):
             "count": count
         }
         return JsonResponse(data)
+
+
+class LoginView(View):
+    def get(self, request):
+        """打开登陆页面"""
+        return render(request, 'login.html')
+
+    def post(self, request):
+        """提交登陆数据"""
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        remembered = request.POST.get('remembered')
+
+        if not all([username, password, remembered]):
+            return HttpResponseForbidden('缺少必须的参数')
+        if not re.match(r'^[a-zA-Z0-9_-]{5,20}$', username):
+            return http.HttpResponseForbidden('请输⼊5-20个字符的⽤户名')
+        if not re.match(r'^[0-9A-Za-z]{8,20}$', password):
+            return http.HttpResponseForbidden('请输⼊8-20位的密码')
+
+        user = authenticate(username=username, password=password)
+        if user is None:
+            return render(request, 'login.html', {'loginerror': '用户名或密码错误'})
+
+        login(request, user)
+        if remembered != 'on':
+            request.session.set_expiry(0)
+        else:
+            request.session.set_expiry(None)
+
+        next_path = request.GET.get('next', reverse('contents:index'))
+        response = redirect(next_path)
+        response.set_cookie('username', user.username, max_age=60 * 60 * 24 * 14)
+        return response
+
+
+class LogoutView(View):
+    def get(self, request):
+        logout(request)
+        response = redirect(reverse('contents:index'))
+        response.delete_cookie('username')
+        return response
+
+
+class UserCenterView(LoginRequiredMixin, View):
+    def get(self, request):
+        context = {
+            'username': request.user.username,
+            'mobile' : request.user.mobile,
+            'email': request.user.email,
+            'email_active': request.user.email_active
+        }
+        return render(request, 'user_center_info.html', context)

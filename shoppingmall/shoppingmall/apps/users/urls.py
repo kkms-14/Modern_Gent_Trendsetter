@@ -1,4 +1,6 @@
 from django.conf.urls import url
+from django.contrib.auth.decorators import login_required
+
 from . import views
 
 urlpatterns = [
@@ -7,4 +9,7 @@ urlpatterns = [
         name='username_count'),
     url(r'^mobiles/(?P<mobile>1[3-9]\d{9})/count/$', views.MobileCountView.as_view(),
         name='mobile_count'),
+    url(r'^login/$', views.LoginView.as_view(), name='login'),
+    url(r'^logout/$', views.LogoutView.as_view(), name='logout'),
+    url(r'^info/$', views.UserCenterView.as_view(), name='info'),
 ]
