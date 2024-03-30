@@ -14,4 +14,9 @@ urlpatterns = [
     url(r'^info/$', views.UserCenterView.as_view(), name='info'),
     url(r'^addresses/$', views.AddressView.as_view(), name='addresses'),
     url(r'^addresses/create/$', views.AddressView.as_view(), name='addresses_create'),
+    url(r'^addresses/(?P<address_id>\d+)/$', views.AddressView.as_view(), name='addresses_update_delete'),
+    url(r'^addresses/(?P<address_id>\d+)/default/$', views.DefaultAddressView.as_view(),
+        name='addresses_default'),
+    url(r'^addresses/(?P<address_id>\d+)/title/$', views.AddressTitleView.as_view(),
+        name='addresses_title'),
 ]

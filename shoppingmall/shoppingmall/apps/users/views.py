@@ -162,9 +162,34 @@ class UserCenterView(LoginRequiredMixin, View):
 
 class AddressView(View):
     def get(self, request):
-        return render(request, 'user_center_address.html')
+        addresses = Address.objects.filter(user=request.user, is_delete=False)
+        # request.user.addresses.all()
+
+        address_list = []
+        for address in addresses:
+            address_list.append({
+                'id': address.id,
+                'title': address.title,
+                'receiver': address.receiver,
+                'province': address.province.name,
+                'province_id': address.province_id,
+                'city': address.city.name,
+                'city_id': address.city_id,
+                'district': address.district.name,
+                'district_id': address.district_id,
+                'place': address.place,
+                'mobile': address.mobile,
+                'tel': address.telephone,
+                'email': address.email,
+            })
+        context = {
+            'addresses': address_list,
+            'user': request.user
+        }
+        return render(request, 'user_center_address.html', context)
 
     def post(self, request):
+        # 1. 提取数据
         data_dict = json.loads(request.body.decode())
         title = data_dict.get('title')
         receiver = data_dict.get('receiver')
@@ -175,7 +200,7 @@ class AddressView(View):
         mobile = data_dict.get('mobile')
         tel = data_dict.get('tel')
         email = data_dict.get('email')
-
+        # 2. 校验数据
         if not all([receiver, province_id, city_id, district_id, place, mobile]):
             return HttpResponseForbidden('缺少信息')
         if not re.match(r'^1[345789]\d{9}$', mobile):
@@ -186,9 +211,8 @@ class AddressView(View):
             return HttpResponseForbidden('邮箱格式错误')
         if not title:
             title = receiver
-
         try:
-            address: Address = Address.objects.create(
+            address = Address.objects.create(
                 title=title,
                 receiver=receiver,
                 province_id=province_id,
@@ -204,9 +228,9 @@ class AddressView(View):
             return JsonResponse({'code': RETCODE.DBERR, 'errmsg': '新增地址失败'})
 
         address_dict = {
-            'id': address,
-            'title': title,
-            'receiver': receiver,
+            'id': address.id,
+            'title': address.title,
+            'receiver': address.receiver,
             'province': address.province.name,
             'province_id': address.province_id,
             'city': address.city.name,
@@ -218,6 +242,132 @@ class AddressView(View):
             'tel': address.telephone,
             'email': address.email,
         }
-        return JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK', 'address': address_dict})
+        print(address_dict)
+        return JsonResponse({'code': RETCODE.OK, 'errmsg': '新增地址成功', 'address': address_dict})
+
+    def put(self, request, address_id):
+        # 提取参数
+        # 1. 提取数据
+        data_dict = json.loads(request.body.decode())
+        receiver = data_dict.get('receiver')
+        province_id = data_dict.get('province_id')
+        city_id = data_dict.get('city_id')
+        district_id = data_dict.get('district_id')
+        place = data_dict.get('place')
+        mobile = data_dict.get('mobile')
+        tel = data_dict.get('tel')
+        email = data_dict.get('email')
+        # 2.校验参数
+        if not all([receiver, province_id, city_id, district_id, place, mobile]):
+            return HttpResponseForbidden('缺少信息')
+        if not re.match(r'^1[345789]\d{9}$', mobile):
+            return HttpResponseForbidden('手机号格式错误')
+        if tel and not re.match(r'^(0[0-9]{2,3}-)?([2-9][0-9]{6,7})+(-[0-9]{1,4})?$', tel):
+            return HttpResponseForbidden('电话格式错误')
+        if email and re.match(r'^[a-z0-9][\w\.\-]*@[a-z0-9\-]+(\.[a-z]{2,5}){1,2}$', email):
+            return HttpResponseForbidden('邮箱格式错误')
+
+        # 3.处理逻辑
+        try:
+            Address.objects.filter(id=address_id).update(
+                receiver=receiver,
+                province_id=province_id,
+                city_id=city_id,
+                district_id=district_id,
+                place=place,
+                mobile=mobile,
+                telephone=tel,
+                email=email
+            )
+        except Exception:
+            return JsonResponse({'code': RETCODE.DBERR, 'errmsg': '更新地址失败'})
+
+        # 4.返回响应
+        address = Address.objects.get(id=address_id)  # 将修改后的数据取出返回到前台页面
+        address_dict = {
+            'id': address_id,
+            'title': address.title,
+            'receiver': address.receiver,
+            'province': address.province.name,
+            'province_id': address.province_id,
+            'city': address.city.name,
+            'city_id': address.city_id,
+            'district': address.district.name,
+            'district_id': address.district_id,
+            'place': address.place,
+            'mobile': address.mobile,
+            'tel': address.telephone,
+            'email': address.email,
+        }
+        return JsonResponse({'code': RETCODE.OK, 'errmsg': '新增地址成功', 'address': address_dict})
+
+    def delete(self, request: HttpRequest, address_id):
+        try:
+            addr = Address.objects.get(id=address_id)
+            addr.is_delete = True
+            addr.save()
+        except Exception:
+            return JsonResponse({'code': RETCODE.DBERR, 'errmsg': '删除失败'})
+        return JsonResponse({'code': RETCODE.OK, 'errmsg': '删除成功'})
 
 
+class DefaultAddressView(View):
+    def put(self, request, address_id):
+        try:
+            # 设置地址为默认地址
+            request.user.default_address_id = address_id
+            request.user.save()
+        except Exception:
+            return JsonResponse({'code': RETCODE.DBERR, 'errmsg': '设置默认地址失败'})
+
+        return JsonResponse({'code': RETCODE.OK, 'errmsg': '设置默认地址成功'})
+
+
+class AddressTitleView(View):
+    def put(self, request, address_id):
+        title_dict = json.loads(request.body.decode())
+        title = title_dict.get('title')
+        try:
+            addr = Address.objects.get(id=address_id)
+            addr.title = title
+            addr.save()
+        except Exception:
+            return JsonResponse({'code': RETCODE.DBERR, 'errmsg': '修改标题失败'})
+        return JsonResponse({'code': RETCODE.OK, 'errmsg': '修改标题成功'})
+
+
+class PasswordView(View):
+    # 打开修改密码的页面
+    def get(self, request: HttpRequest):
+        res = render(request, 'user_center_pass.html')
+        return res
+
+    def post(self, request: HttpRequest):
+        old_pwd = request.POST.get('old_pwd')
+        new_pwd = request.POST.get('new_pwd')
+        new_cpwd = request.POST.get('new_cpwd')
+        # 校验参数的完整性
+        if not all([old_pwd, new_pwd, new_cpwd]):
+            return HttpResponseForbidden("缺少必要的参数")
+
+        if not request.user.check_password(old_pwd):
+            return render(request, 'user_center_pass.html', {'origin_pwd_errmsg': '原始密码错误'})
+
+        if not re.match(r'^[0-9A-Za-z]{8,20}$', new_cpwd):
+            return HttpResponseForbidden('密码最少8位，最长20位')
+
+        if new_cpwd != new_cpwd:
+            return HttpResponseForbidden('两次密码不一致')
+
+        try:
+            request.user.set_password(new_pwd)
+            request.user.save()
+        except Exception as e:
+            print(e)
+            return HttpResponseForbidden('修改密码失败')
+        # 注销当前用户  然后退出到登陆页面
+        logout(request)
+        res = redirect(reverse("users:logins"))
+        res.delete_cookie('username')
+
+        return res
