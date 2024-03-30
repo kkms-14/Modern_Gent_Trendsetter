@@ -19,4 +19,5 @@ urlpatterns = [
         name='addresses_default'),
     url(r'^addresses/(?P<address_id>\d+)/title/$', views.AddressTitleView.as_view(),
         name='addresses_title'),
+    url(r'^password/$', views.PasswordView.as_view(), name='password'),
 ]

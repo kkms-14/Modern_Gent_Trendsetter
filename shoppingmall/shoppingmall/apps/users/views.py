@@ -339,10 +339,9 @@ class AddressTitleView(View):
 class PasswordView(View):
     # 打开修改密码的页面
     def get(self, request: HttpRequest):
-        res = render(request, 'user_center_pass.html')
-        return res
+        return render(request, 'user_center_pass.html')
 
-    def post(self, request: HttpRequest):
+    def post(self, request):
         old_pwd = request.POST.get('old_pwd')
         new_pwd = request.POST.get('new_pwd')
         new_cpwd = request.POST.get('new_cpwd')
@@ -351,23 +350,22 @@ class PasswordView(View):
             return HttpResponseForbidden("缺少必要的参数")
 
         if not request.user.check_password(old_pwd):
-            return render(request, 'user_center_pass.html', {'origin_pwd_errmsg': '原始密码错误'})
+            return HttpResponseForbidden("原密码不正确")
 
         if not re.match(r'^[0-9A-Za-z]{8,20}$', new_cpwd):
             return HttpResponseForbidden('密码最少8位，最长20位')
 
         if new_cpwd != new_cpwd:
-            return HttpResponseForbidden('两次密码不一致')
+            return HttpResponseForbidden('两次输入密码不一致')
 
         try:
             request.user.set_password(new_pwd)
             request.user.save()
-        except Exception as e:
-            print(e)
+        except Exception:
             return HttpResponseForbidden('修改密码失败')
         # 注销当前用户  然后退出到登陆页面
         logout(request)
-        res = redirect(reverse("users:logins"))
-        res.delete_cookie('username')
+        response = redirect(reverse("users:login"))
+        response.delete_cookie('username')
 
-        return res
+        return response
