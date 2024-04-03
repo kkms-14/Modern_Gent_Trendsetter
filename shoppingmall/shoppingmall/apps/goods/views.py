@@ -46,7 +46,7 @@ class GoodsListView(View):
             sort_field = "create_time"
         skus_ordered = skus.order_by(sort_field)
         # 3.3.3 对排序结果进行分页
-        paginator = Paginator(skus_ordered, constants.PER_PAGE)
+        paginator = Paginator(skus_ordered, 5)
         page_skus = paginator.page(page_num)
         # 4.返回响应
         context = {

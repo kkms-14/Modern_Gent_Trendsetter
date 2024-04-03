@@ -8,13 +8,17 @@ var vm = new Vue({
         carts: [], // 购物车数据,
 		hots: [],
         category_id: category_id,
+        username:'',
     },
     mounted(){
+        this.username=getCookie('username');
+        console.log(this.username);
         // 获取购物车数据
         this.get_carts();
 
 		// 获取热销商品数据
         this.get_hot_goods();
+
     },
     methods: {
         // 获取购物车数据
@@ -67,7 +71,7 @@ var vm = new Vue({
 // $(function () {
 //
 //     // 获取并展示购物车数据
-////     get_cart();
+//     get_cart();
 //
 //     // 获取热销商品
 // 	var category_id = $('.breadcrumb').attr('category_id');

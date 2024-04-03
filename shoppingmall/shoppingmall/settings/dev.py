@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'content.apps.ContentConfig',
     'areas.apps.AreasConfig',
     'goods.apps.GoodsConfig',
+    'haystack',
 ]
 
 MIDDLEWARE = [
@@ -213,5 +214,18 @@ AUTHENTICATION_BACKENDS = [
 
 LOGIN_URL = '/login/'
 # fastdfs文件访问路径
-FDFS_BASE_PATH = 'http://192.168.93.129:8888/'
+FDFS_BASE_PATH = 'http://image.shoppingmall.com:8888/'
 DEFAULT_FILE_STORAGE = 'shoppingmall.utils.fastdfs.FastDFSStorage.FastDFSFileStorages'
+
+# Haystack
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
+        'URL': 'http://192.168.93.129:9200/',  # Elasticsearch服务器ip地址，端口号固定为9200
+        'INDEX_NAME': 'shoppingmall',  # Elasticsearch建立的索引库的名称
+    },
+}
+
+# 当添加、修改、删除数据时，自动生成索引
+HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
+HAYSTACK_SEARCH_RESULTS_PER_PAGE = 12
