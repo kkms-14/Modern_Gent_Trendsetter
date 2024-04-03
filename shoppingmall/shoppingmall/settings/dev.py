@@ -17,7 +17,6 @@ import sys
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(os.path.join(BASE_DIR, 'apps'))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
@@ -42,6 +41,7 @@ INSTALLED_APPS = [
     'verifications.apps.VerificationsConfig',
     'content.apps.ContentConfig',
     'areas.apps.AreasConfig',
+    'goods.apps.GoodsConfig',
 ]
 
 MIDDLEWARE = [
@@ -162,7 +162,6 @@ CACHES = {
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 SESSION_CACHE_ALIAS = "session"
 
-
 # logger
 LOGGING = {
     'version': 1,  # 设置 logging 配置的版本格式，目前只有 1 这个版本
@@ -213,3 +212,6 @@ AUTHENTICATION_BACKENDS = [
 ]
 
 LOGIN_URL = '/login/'
+# fastdfs文件访问路径
+FDFS_BASE_PATH = 'http://192.168.93.129:8888/'
+DEFAULT_FILE_STORAGE = 'shoppingmall.utils.fastdfs.FastDFSStorage.FastDFSFileStorages'
