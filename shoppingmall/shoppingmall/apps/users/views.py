@@ -15,6 +15,8 @@ from django.views import View
 from django_redis import get_redis_connection
 
 from shoppingmall.utils.response_code import RETCODE
+
+from carts.utils import merge_cart
 from users.models import User, Address
 
 
@@ -138,6 +140,7 @@ class LoginView(View):
         next_path = request.GET.get('next', reverse('contents:index'))
         response = redirect(next_path)
         response.set_cookie('username', user.username, max_age=60 * 60 * 24 * 14)
+        merge_cart(request, response)
         return response
 
 

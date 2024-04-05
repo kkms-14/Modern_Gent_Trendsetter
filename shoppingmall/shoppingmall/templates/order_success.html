@@ -3,14 +3,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>Modern Gent-商品搜索</title>
-    <link rel="stylesheet" type="text/css" href="/static/css/jquery.pagination.css">
+    <title>Modern Gent-订单提交成功</title>
     <link rel="stylesheet" type="text/css" href="/static/css/reset.css">
     <link rel="stylesheet" type="text/css" href="/static/css/main.css">
     <script type="text/javascript" src="/static/js/host.js"></script>
     <script type="text/javascript" src="/static/js/vue-2.5.16.js"></script>
     <script type="text/javascript" src="/static/js/axios-0.18.0.min.js"></script>
-    <script type="text/javascript" src="/static/js/jquery-1.12.4.min.js"></script>
 </head>
 <body>
 <div id="app" v-cloak>
@@ -28,21 +26,20 @@
                     <span>|</span>
                     <a href="/register/">注册</a>
                 </div>
-                
                 <div class="user_link fl">
                     <span>|</span>
                     <a href="/info/">用户中心</a>
                     <span>|</span>
                     <a href="/carts/">我的购物车</a>
                     <span>|</span>
-                    <a href="/orders/">我的订单</a>
+                    <a href="/orders/info/1/">我的订单</a>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="search_bar clearfix">
-        <a href="/" class="logo fl"><img src="/static/images/logo.png"></a>
+        <a href="index.html" class="logo fl"><img src="/static/images/logo.png"></a>
         <div class="search_wrap fl">
             <form method="get" action="/search/" class="search_con">
                 <input type="text" class="input_text fl" name="q" placeholder="搜索商品">
@@ -57,26 +54,22 @@
         </div>
     </div>
 
-    <div class="main_wrap clearfix">
-        <div class=" clearfix">
-            <ul class="goods_type_list clearfix">
-                {% for result in page %}
-                    <li>
-                        <a href="/detail/{{ result.object.id }}/"><img src="{{ result.object.default_image.url }}"></a>
-                        <h4><a href="/detail{{ result.object.id }}/">{{ result.object.name }}</a></h4>
-                        <div class="operate">
-                            <span class="price">￥{{ result.object.price }}</span>
-                            <span class="unit">台</span>
-                            <a href="#" class="add_goods" title="加入购物车"></a>
-                        </div>
-                    </li>
-                {% endfor %}
-
-            </ul>
-            <div class="pagenation">
-                <div id="pagination" class="page"></div>
-            </div>
+    <div class="common_list_con clearfix">
+        <div class="order_success">
+            <p><b>订单提交成功，订单总价<em>¥{{ payment_amount }}</em></b></p>
+            <p>您的订单已成功生成，选择您想要的支付方式，订单号：{{ order_id }}</p>
+            <p><a href="/orders/info/1/">您可以在【用户中心】->【我的订单】查看该订单</a></p>
         </div>
+    </div>
+
+    <div class="order_submit clearfix">
+        {% if pay_method == '1' %}
+            <a href="/">继续购物</a>
+        {% else %}
+            <a href="javascript:;" @click="order_payment">去支付</a>
+        {% endif %}
+
+
     </div>
 
     <div class="footer">
@@ -89,20 +82,7 @@
         <p>电话：XXX-****888 京ICP备*******8号</p>
     </div>
 </div>
-<script type="text/javascript" src="/static/js/jquery.pagination.min.js"></script>
 <script type="text/javascript" src="/static/js/common.js"></script>
-<script type="text/javascript" src="/static/js/index.js"></script>
-<script>
-    $(function () {
-        $('#pagination').pagination({
-            currentPage: {{ page.number }},
-            totalPage: {{ paginator.num_pages }},
-            callback: function (current) {
-                // location.href = '/search/?q=iphone&amp;page=1';
-                location.href = '/search/?q={{ query }}&page=' + current;
-            }
-        })
-    });
-</script>
+<script type="text/javascript" src="/static/js/order_success.js"></script>
 </body>
 </html>

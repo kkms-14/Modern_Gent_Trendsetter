@@ -28,7 +28,7 @@ class SMSCodeView(View):
     def get(self, request: HttpRequest, mobile):
         # 接收参数
         image_code: str = request.GET.get('image_code')
-        uuid = request.GET.get('image_code_id')
+        uuid = request.GET.get('uuid')
         # 校验参数
         if not all([image_code, uuid]):
             return JsonResponse({'code': RETCODE.NECESSARYPARAMERR, 'errmsg': '缺少必传参数'})

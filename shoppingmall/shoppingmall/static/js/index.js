@@ -7,7 +7,7 @@ var vm = new Vue({
         f1_tab: 1, // 1F 标签页控制
         f2_tab: 1, // 2F 标签页控制
         f3_tab: 1, // 3F 标签页控制
-        cart_total_count: 0, // 购物车总数量
+        total_count: 0, // 购物车总数量
         carts: [], // 购物车数据,
         username:'',
     },
@@ -16,6 +16,9 @@ var vm = new Vue({
         // this.get_carts();
         this.username=getCookie('username');
         console.log(this.username);
+        this.render_carts();
+        this.compute_total_count();
+
     },
     methods: {
         // 获取购物车数据
@@ -37,7 +40,28 @@ var vm = new Vue({
                 .catch(error => {
                     console.log(error.response);
                 })
-        }
+        },
+        render_carts(){
+            // 渲染界面
+            this.carts = JSON.parse(JSON.stringify(cart_skus));
+            for(var i=0; i<this.carts.length; i++){
+                if(this.carts[i].selected=='True'){
+                    this.carts[i].selected=true;
+                } else {
+                    this.carts[i].selected=false;
+                }
+            }
+            // 手动记录购物车的初始值，用于更新购物车失败时还原商品数量
+            this.carts_tmp = JSON.parse(JSON.stringify(cart_skus));
+        },
+        // 计算商品总数量：无论是否勾选
+        compute_total_count(){
+            var total_count = 0;
+            for(var i=0; i<this.carts.length; i++){
+                total_count += parseInt(this.carts[i].count);
+            }
+            this.total_count = total_count;
+        },
     }
 });
 

@@ -24,10 +24,13 @@ var vm = new Vue({
             4: 'stars_four',
             5: 'stars_five',
         },
-        cart_total_count: 0, // 购物车总数量
+        total_count: 0, // 购物车总数量
         carts: [], // 购物车数据,
+        username:'',
     },
     mounted(){
+        this.username=getCookie('username');
+        console.log(this.username);
 		// 获取热销商品数据
         this.get_hot_goods();
 
@@ -42,6 +45,10 @@ var vm = new Vue({
 
 		// 获取商品评价信息
         this.get_goods_comment();
+        this.render_carts();
+
+        // 计算商品总数量：无论是否勾选
+        this.compute_total_count();
     },
     watch: {
         // 监听商品数量的变化
@@ -188,6 +195,27 @@ var vm = new Vue({
                 .catch(error => {
                     console.log(error.response);
                 })
+        },
+        render_carts(){
+            // 渲染界面
+            this.carts = JSON.parse(JSON.stringify(cart_skus));
+            for(var i=0; i<this.carts.length; i++){
+                if(this.carts[i].selected=='True'){
+                    this.carts[i].selected=true;
+                } else {
+                    this.carts[i].selected=false;
+                }
+            }
+            // 手动记录购物车的初始值，用于更新购物车失败时还原商品数量
+            this.carts_tmp = JSON.parse(JSON.stringify(cart_skus));
+        },
+        // 计算商品总数量：无论是否勾选
+        compute_total_count(){
+            var total_count = 0;
+            for(var i=0; i<this.carts.length; i++){
+                total_count += parseInt(this.carts[i].count);
+            }
+            this.total_count = total_count;
         },
         // 获取商品评价信息
         get_goods_comment(){

@@ -8,12 +8,15 @@ var vm = new Vue({
         pay_method: 2, // 支付方式,默认支付宝支付
         nowsite: '', // 默认地址
         payment_amount: '',
+        username:'',
     },
     mounted(){
         // 初始化
         this.payment_amount = payment_amount;
         // 绑定默认地址
         this.nowsite = default_address_id;
+        this.username=getCookie('username');
+        console.log(this.username);
     },
     methods: {
         // 提交订单
@@ -31,7 +34,7 @@ var vm = new Vue({
                 var url = this.host + '/orders/commit/';
                 axios.post(url, {
                         address_id: this.nowsite,
-                        pay_method: this.pay_method
+                        pay_method: parseInt(this.pay_method)
                     }, {
                         headers:{
                             'X-CSRFToken':getCookie('csrftoken')

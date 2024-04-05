@@ -3,8 +3,11 @@ var vm = new Vue({
 	// 修改Vue变量的读取语法，避免和django模板语法冲突
     delimiters: ['[[', ']]'],
     data: {
+        username:'',
     },
     mounted(){
+        this.username=getCookie('username');
+        console.log(this.username);
     },
     methods: {
         // 发起支付
