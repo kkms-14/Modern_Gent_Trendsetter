@@ -10,6 +10,7 @@ class Area(models.Model):
     class Meta:
         db_table = 'tb-areas'
         verbose_name = '省市区'
+        verbose_name_plural = '省市区'
 
     def __str__(self):
         return self.name

@@ -18,7 +18,8 @@ class User(AbstractUser):
         verbose_name_plural = verbose_name
 
     def __str__(self):
-        return self.username
+        return '%s, %s, %s, %s, %s, %s, %s' % (self.username, self.mobile, self.is_staff, self.is_superuser,
+                                               self.is_active, self.date_joined, self.last_login)
 
 
 class Address(BaseModel):

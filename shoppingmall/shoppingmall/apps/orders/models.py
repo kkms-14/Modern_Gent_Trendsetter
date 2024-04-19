@@ -47,7 +47,8 @@ class OrderInfo(BaseModel):
         verbose_name_plural = verbose_name
 
     def __str__(self):
-        return self.order_id
+        return '%s, %s, %s, %s, %s, %s' % (self.order_id, self.total_amount, self.total_amount, self.freight,
+                                           self.pay_method, self.status)
 
 
 class OrderGoods(BaseModel):

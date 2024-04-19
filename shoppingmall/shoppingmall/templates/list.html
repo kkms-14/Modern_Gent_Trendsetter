@@ -31,11 +31,11 @@
                 
                 <div class="user_link fl">
                     <span>|</span>
-                    <a href="user_center_info.html">用户中心</a>
+                    <a href="/info/">用户中心</a>
                     <span>|</span>
                     <a href="/carts/">我的购物车</a>
                     <span>|</span>
-                    <a href="/static/user_center_order.html">我的订单</a>
+                    <a href="/orders/info/1/">我的订单</a>
                 </div>
             </div>
         </div>
@@ -58,19 +58,7 @@
 
         <div class="guest_cart fr">
             <a href="/carts/" class="cart_name fl">我的购物车</a>
-            <div class="goods_count fl" id="show_count">2</div>
-            <ul class="cart_goods_show">
-                <li>
-                    <img src="/static/images/goods/goods001.jpg" alt="商品图片">
-                    <h4>华为 HUAWEI P10 Plus 6GB+64GB 钻雕金 移动联通电信4G手机 双卡双待</h4>
-                    <div>1</div>
-                </li>
-                <li>
-                    <img src="/static/images/goods/goods002.jpg" alt="商品图片">
-                    <h4>Apple iPhoneX 64GB 深空灰色 移动联通电信4G手机</h4>
-                    <div>1</div>
-                </li>
-            </ul>
+            <div class="goods_count fl" id="show_count">[[ total_count ]]</div>
         </div>
     </div>
 
@@ -184,6 +172,9 @@
 </div>
 <script type="text/javascript">
     let category_id = "{{ category.id }}";
+</script>
+<script>
+    var cart_skus = {{ carts|safe }};
 </script>
 <script type="text/javascript" src="/static/js/common.js"></script>
 <script type="text/javascript" src="/static/js/list.js"></script>

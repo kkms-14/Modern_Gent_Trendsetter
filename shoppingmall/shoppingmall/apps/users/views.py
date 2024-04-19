@@ -20,12 +20,14 @@ from carts.utils import merge_cart
 from users.models import User, Address
 
 
+
 class RegisterView(View):
     """user register view"""
 
     def get(self, request: HttpRequest):
         """展示用户注册页面"""
         return render(request, 'register.html')
+
 
     def post(self, request: HttpRequest):
         """提交用户注册数据"""

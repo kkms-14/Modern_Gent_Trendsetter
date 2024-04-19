@@ -85,7 +85,7 @@ class SPU(BaseModel):
         verbose_name_plural = verbose_name
 
     def __str__(self):
-        return self.name
+        return '%s, %s, %s' % (self.name, self.brand, self.sales)
 
 
 class SKU(BaseModel):
@@ -110,7 +110,8 @@ class SKU(BaseModel):
         verbose_name_plural = verbose_name
 
     def __str__(self):
-        return '%s: %s' % (self.id, self.name)
+        return '%s, %s, %s, %s, %s, %s, %s, %s' % (self.name, self.price, self.cost_price, self.market_price,
+                                                   self.stock, self.sales, self.comments, self.is_launched)
 
 
 class SKUImage(BaseModel):
