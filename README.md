@@ -10,7 +10,7 @@
 * Li Ze 1155157157
 * WANG Yutao 1155157060
 ## Branch
-* DEV
+* develop
 ## Requirement
 * pip install Django==1.11.11
 * pip install django-redis==4.11.0
