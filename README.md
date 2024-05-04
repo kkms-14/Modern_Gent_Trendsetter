@@ -9,9 +9,12 @@
 * HUANG Huangmei 1155142720
 * Li Ze 1155157157
 * WANG Yutao 1155157060
+## Overview
+This website is an online mall. It is based on Django framework in python and Jinja2 for frontend. We have implemented user registration, user login, product search, product details, add shopping cart, product payment and so on. At the same time admin users can add and delete products, change order information and so on. We imitated Jingdong Mall to design the website page, so as to improve the user's shopping experience.
 ## Branch
 * develop
 ## Requirement
+* python 3.8.1
 * pip install Django==1.11.11
 * pip install django-redis==4.11.0
 * pip install django-haystack==2.8.1
